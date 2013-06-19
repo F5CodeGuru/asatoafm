@@ -1,0 +1,4 @@
+asatoafm
+========
+
+Takes an ASA/PIX config and converts the ACL and all associated object groups to F5 AFM tmsh syntax
