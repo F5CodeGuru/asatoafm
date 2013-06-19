@@ -1,0 +1,33 @@
+		#We need to convert the deny/permit to drop/accept
+		if action == "deny":
+		
+			self.afmAction = "drop"
+			
+		elif action == "permit":
+		
+			self.afmAction = "accept"
+			
+		else:
+		
+			DEBUGFILEHANDLE.write("Acl action not identified:\n" + self.ciscoLine)
+			self.afmAction = "UNDEFINEDACTION"
+		
+		
+		self.ciscoDestination = destination
+		matchObjectDestination = re.match(ipAndNetmaskRegex,self.ciscoDestination)
+
+		if self.ciscoDestination == "any":
+		
+			self.afmDestination = "any"
+			
+		elif matchObjectDestination:
+		
+			print "Line: " + self.ciscoLine + "\n"
+			print "Destination Netmask: " + matchObjectDestination.group(2) + " flipped to: " + flipNetmask(matchObjectDestination.group(2) + "\n"
+			self.afmDestination = matchObjectDestination.group(1) + '/' + flipNetmask(matchObjectDestination.group(2))
+			
+		else:
+		
+			DEBUGFILEHANDLE.write("Acl destination not identified:\n" + self.ciscoLine)
+			self.afmDestination = "UNDEFINEDDESTINATION"		
+		

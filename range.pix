@@ -1,0 +1,23 @@
+ 
+object-group service sigma-p2-test-tcp tcp
+ description TEMPORARY group for Sigma Phase 2 development/testing
+ port-object range 9996 9999
+ port-object range 2953 2954
+ port-object range 32000 39000
+ port-object range 45500 46000
+ port-object range radius radius-acct
+ port-object range 1812 1813
+ port-object range 9001 9005
+ port-object range 33434 33534
+ port-object range 8080 8082
+ port-object range 9996 9999
+ port-object range 3000 3004
+ port-object range 8080 8082
+ port-object range 32000 39000
+ port-object range 45500 46000
+ port-object range ftp-data ftp
+ port-object range 7800 7800
+ port-object range 1158 1158
+ port-object range 5000 5010
+ port-object range 5500 5500
+ port-object range time time

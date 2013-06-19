@@ -1,0 +1,108 @@
+create /security firewall rule-list acl_interesting
+create /security firewall rule-list np-nonat2-mpimgmt
+create /security firewall rule-list acl_xata
+create /security firewall rule-list np-nonat-xata
+create /security firewall rule-list np-nonat-mpimgmt
+create /security firewall rule-list np-nonat4-xata
+create /security firewall rule-list acl_mpe
+create /security firewall rule-list acl_mpimgmt
+create /security firewall rule-list np-nonat1-mpe
+create /security firewall rule-list np-nonat-mpe
+create /security firewall rule-list acl_outside
+modify /security firewall rule-list  acl_interesting rules add { acl_interesting1 { destination { addresses add { any }} ip-protocol ip source { addresses add { 169.254.100.4/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe1 { destination { addresses add { any }} ip-protocol ip source { addresses add { 10.0.0.0/255.0.0.0 {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe2 { destination { addresses add { any }} ip-protocol ip source { addresses add { 127.0.0.0/255.0.0.0 {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe3 { destination { addresses add { any }} ip-protocol ip source { addresses add { 172.16.0.0/255.240.0.0 {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe4 { destination { addresses add { any }} ip-protocol ip source { addresses add { 192.168.0.0/255.255.0.0 {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe5 { destination { addresses add { any }} ip-protocol ip source { addresses add { 169.254.0.0/255.255.0.0 {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe6 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe7 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe8 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe9 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe10 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe11 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe12 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe13 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe14 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe15 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe16 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe17 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe18 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe19 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe20 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe21 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe22 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe23 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe24 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe25 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe26 { destination { addresses add { any }} ip-protocol 97 source { addresses add { 56.81.167.36/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe27 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.20/32 {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe28 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.129/32 {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe29 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.11/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe30 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.12/255.255.255.252 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe31 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.16/255.255.255.240 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe32 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.32/255.255.255.248 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe33 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.45/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe34 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.46/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe35 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.48/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe36 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.56/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe37 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.60/255.255.255.252 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe38 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.64/255.255.255.252 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe39 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.68/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe40 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.70/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe41 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.97/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe42 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.101/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe43 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.106/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe44 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.160/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe45 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.172/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe46 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.186/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe47 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.188/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe48 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.190/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe49 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.201/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe50 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.202/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe51 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.204/255.255.255.252 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe52 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.208/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe53 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.211/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe54 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.212/255.255.255.252 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe55 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.216/255.255.255.248 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe56 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.224/255.255.255.240 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe57 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.240/255.255.255.248 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe58 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.248/255.255.255.252 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe59 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.252/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe60 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.254/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe61 { destination { addresses add { any }} ip-protocol ip source { addresses add { 56.81.167.100/32 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_mpe rules add { acl_mpe62 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_mpimgmt rules add { acl_mpimgmt1 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside1 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.88.4.214/255.255.255.254 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside2 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.72.130.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside3 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.107.12.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside4 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.130.209.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside5 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.163.227.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside6 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.189.222.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside7 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.198.27.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside8 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.213.245.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside9 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.227.165.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside10 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.227.177.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside11 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol gre source { addresses add { 56.240.73.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside12 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.72.130.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside13 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.107.12.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside14 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.130.209.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside15 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.163.227.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside16 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.189.222.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside17 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.198.27.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside18 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.213.245.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside19 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.227.165.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside20 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.227.177.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside21 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { 56.240.73.0/255.255.255.0 {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside22 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { any {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside23 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol 97 source { addresses add { any {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside24 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { any {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside25 { destination { addresses add { UNDEFINEDDESTINATION }} ip-protocol ip source { addresses add { any {} }}  place-after last action accept}}
+modify /security firewall rule-list  acl_outside rules add { acl_outside26 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action drop}}
+modify /security firewall rule-list  acl_xata rules add { acl_xata1 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action drop}}
+modify /security firewall rule-list  np-nonat1-mpe rules add { np-nonat1-mpe1 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action accept}}
+modify /security firewall rule-list  np-nonat2-mpimgmt rules add { np-nonat2-mpimgmt1 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action accept}}
+modify /security firewall rule-list  np-nonat4-xata rules add { np-nonat4-xata1 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action accept}}
+modify /security firewall rule-list  np-nonat-mpe rules add { np-nonat-mpe1 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action accept}}
+modify /security firewall rule-list  np-nonat-mpimgmt rules add { np-nonat-mpimgmt1 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action accept}}
+modify /security firewall rule-list  np-nonat-xata rules add { np-nonat-xata1 { destination { addresses add { any }} ip-protocol ip source { addresses add { any {} }}  place-after last action accept}}

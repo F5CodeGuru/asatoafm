@@ -1,0 +1,3264 @@
+: Saved
+:
+PIX Version 7.2(2) 
+!
+hostname eng-fw
+domain-name eng.eastlink.ca
+enable password qWu8YdLQzAKNfJBr encrypted
+multicast-routing
+names
+name 172.22.1.0 netmgmt-servers
+name 172.22.2.0 netmgmt-users
+name 172.22.1.10 nm1
+name 172.22.1.11 nm2
+name 172.22.2.12 cwambolt-laptop
+name 172.22.2.13 kjones-desktop
+name 172.22.2.14 kjones-laptop
+name 172.22.2.15 sirvine-desktop
+name 172.22.2.16 sirvine-laptop
+name 172.22.2.18 hcook-laptop
+name 172.22.2.20 prichardson-laptop
+name 172.22.2.22 dbates-laptop
+name 172.22.2.23 rsachetti-laptop
+name 24.222.4.46 jrubinger-home
+name 172.18.101.34 oscar
+name 172.22.2.24 pzhang-laptop
+name 24.222.47.66 kjones-home
+name 172.22.2.25 jcline-laptop
+name 24.222.47.2 lbrinton-home
+name 172.22.1.16 rx8
+name 24.222.0.158 rx8-internet
+name 24.222.20.62 sirvine-home
+name 24.222.4.44 jrubinger-homelan
+name 24.222.47.64 kjones-homelan
+name 24.222.47.0 lbrinton-homelan
+name 24.222.20.56 sirvine-homelan
+name 24.222.47.8 hcook-homelan
+name 24.222.55.152 prichardson-homelan
+name 24.222.18.216 pfurlong-homelan
+name 24.222.27.184 rsachetti-homelan
+name 24.224.174.108 cwambolt-homelan
+name 24.222.25.144 dbates-homelan
+name 24.222.31.32 mhart-officelan
+name 209.153.204.0 inoc-blackberry-ssh
+name 216.9.250.0 inoc-blackberry-http
+name 24.222.84.192 schurch-homelan
+name 24.222.0.154 ovis-internet
+name 172.22.1.12 ovis
+name 172.18.101.152 pluto
+name 172.22.20.12 smpapp01
+name 172.22.20.13 smpapp02
+name 32.49.247.24 printsrv01-csg
+name 32.49.247.25 dct-ts01-csg
+name 172.22.20.100 dct-ts01
+name 172.22.1.18 sw
+name 24.222.0.155 sw-internet
+name 172.22.2.17 lbrinton-laptop
+name 24.222.47.74 lbrinton-ayls
+name 24.222.47.72 lbrinton-officelan
+name 172.22.1.85 voyeur
+name 172.20.3.100 dcnmon description DCN Big Brother Monitor
+name 172.18.101.0 corp-servers description Corp Servers including Exchange
+name 10.100.2.0 vod-pg-net description Seachange Propagation Network
+name 10.100.1.0 vod-ss-net description Seachange Server-to-Server Network
+name 24.222.0.159 nm2-internet
+name 24.222.0.153 voyeur-internet
+name 24.222.0.58 nm1-internet
+name 24.222.0.152 swen-internet
+name 172.22.1.17 swen
+name 10.5.5.25 hlfx-br2
+name 172.22.2.27 myork-linux
+name 10.100.1.105 seachange-ps
+name 10.207.0.144 yngtwrcmt
+name 32.49.247.23 printsrv00-csg
+name 172.18.101.77 printsrv00
+name 172.22.2.28 jkiss-laptop
+name 172.22.20.0 smp-kdm-servers description Sigma and Kenan Data Mediation Servers
+name 24.222.0.151 tmon2-nat
+name 24.222.0.150 tmon1-nat
+name 172.22.20.15 smpdb01
+name 172.22.20.16 smpdev01
+name 172.22.20.10 smpweb01
+name 172.22.20.11 smpweb02
+name 172.22.20.14 smpwladm
+name 172.18.75.34 greg_seamone
+name 172.22.20.20 smpweb
+name 32.49.247.21 smpweb-csg
+name 172.22.1.20 swen2
+name 172.18.68.38 Patrick_Oleary
+name 24.222.0.225 sunconnect-nat
+name 172.18.68.30 Lynn_Hamood_Temp description 02192007 - Temp access from 5th floor conf room
+name 172.22.1.27 tools
+name 24.222.5.106 ovis-inet
+name 172.22.1.22 auth1
+name 172.22.1.23 auth2
+name 24.222.0.122 auth1-internet
+name 24.222.0.123 auth2-internet
+name 24.222.0.141 tools-internet
+name 24.222.14.6 AdvantageTerm description Advantage Term Server
+name 24.222.33.100 cg-internet
+name 172.22.20.17 smpdev02
+name 10.100.2.199 tvn-rtr description VPN Router for TVN Content Catcher
+name 24.222.0.199 tvn-rtr-internet description VPN Router for TVN Content Catcher
+name 24.222.33.108 NSM_Server
+name 172.22.1.35 swen5
+name 172.20.0.39 omnivu description Monitors power supplies in the field
+name 24.222.0.147 swen5-internet
+name 24.222.33.102 radiusx-internet description Dialup RADIUS Server
+name 24.222.0.72 smpdev02-nat description Sigma UAT Server
+name 142.176.11.2 AdvantageIP1 description Advantage Call Center IP 1
+name 142.176.242.50 AdvantageIP2 description Advantage Call Center IP 2
+name 142.176.11.13 AdvantageNewFirewall description Advantage new firewall NAT IP
+name 172.22.20.23 smpdb02
+name 172.22.20.18 smpapp03
+name 172.22.20.19 smpapp04
+name 172.22.1.39 nm4-new description Ellacoya Oracle server
+name 24.222.33.105 nm5-new description Ellacoya SLE
+name 172.22.2.11 jrubinger-desktop
+name 172.22.20.24 smpdev03
+name 192.168.160.130 delta-dac
+name 32.49.247.26 delta-dac-csg
+name 172.22.1.33 swdata description Solarwinds Data Instance.
+name 10.250.0.4 hlfx-nsm1-HA description NSM HA link
+name 10.250.0.5 hlfx-nsm2-HA description NSM HA link
+name 76.11.91.244 hlfx-nsm1 description NSM Xpress Public (Primary)
+name 76.11.91.245 hlfx-nsm2 description NSM Xpress Public (Backup)
+name 24.222.33.103 conf-server description Sonexis Conference Bridge Server
+name 24.222.33.107 sle02 description Ellacoya SLE (formerly element)
+name 172.22.1.111 lms description Ciscoworks
+name 24.222.0.146 lms-internet description Ciscoworks
+name 24.215.102.238 bavt-laptop description Garcien's Laptop
+name 24.222.33.123 ACD_Server description Fed Gov ACD Server
+name 24.222.0.145 swdata-internet description Solarwinds Data
+name 24.222.33.104 prizm01
+name 172.22.2.36 jpan-laptop description Jian's Laptop
+name 172.22.2.37 dstennett-desktop description Derrick's Desktop
+name 10.202.128.217 tmon1
+name 10.202.129.217 tmon2
+name 32.49.247.20 sdby-dac-ts-csg description Sudbury DAC Terminal Server NAT
+name 10.202.128.110 psmon1 description Power Supply Status Monitoring Server
+name 24.222.0.149 psmon1-nat
+name 10.202.128.111 psmon2 description Power Supply Monitoring Backup Server
+name 24.222.0.148 psmon2-nat
+name 172.27.12.4 sdby-dac-ts description Sudbury DAC Terminal Server
+name 32.49.247.22 printsrv02-csg description Sudbury RUMBA Server NAT
+name 172.18.101.78 printsrv01
+name 172.18.101.79 printsrv02 description Sudbury RUMBA Server
+name 172.22.1.34 swen4 description Swen4 eng address
+name 66.103.50.30 CDLU_User description Access from CDLI to the Solarwinds
+name 24.222.0.143 swen4-internet description swen4-internet NAT address
+name 172.18.74.21 Wireless_Cacti description Cacti server for prizm
+name 172.16.100.28 GWC-0.BARIONSRDS0 description Barrie CS2K RMGC
+name 172.16.100.36 GWC-2.BARIONSRDS0 description Barrie NCS GWC #1
+name 172.16.100.40 GWC-3.BARIONSRDS0 description Barrie CS2K NCS GWC #2
+name 172.16.101.20 IWSPM0-BEARER.BARIONSRDS0 description Barrie CS2K IW SPM
+name 172.16.101.23 IWSPM1-BEARER.BARIONSRDS0 description Barrie CS2K IW SPM
+name 172.16.101.10 MS2010-0-MOD0.BARIONSRDS0 description Barrie CS2K Media Server
+name 172.16.101.12 MS2010-1-MOD0.BARIONSRDS0 description Barrie CS2K Media Server
+name 24.207.1.85 delta-nat
+name 172.22.1.66 netcon01 description Nuera EMS
+name 172.22.1.41 catalyst description Eng Web Server
+name 24.222.59.224 lab-servers description INOC Lab Servers
+name 192.168.1.0 grande-prairie-network
+name 24.222.0.0 internet-servers description Internet Public Server Network
+name 24.224.136.0 slb-network description Load Balanced Servers
+name 24.222.39.0 ironport-listeners
+name 67.58.192.254 Amtel_NAT description Amtel NAT to internet
+name 192.168.128.253 telco-redhat description Telephone RedHat Server
+name 10.223.1.23 delta-vod description Seachange VOD server IEASTDELMDS1
+name 172.22.2.148 cmshelia-laptop
+name 172.18.68.20 jim_cyr_pc
+name 172.18.68.49 rod_smith
+name 172.22.1.74 hlfxwapp01 description UBB Web server
+name 172.22.1.110 ct01 description OVIS probe on ct01
+name 172.22.2.146 rsachetti-desktop
+name 172.22.1.123 rt-new description RT
+name 24.222.0.163 rt-alt-internet description RTalt NAT address
+name 192.168.160.44 delta-hobbit description Delta Hobbit Server
+name 172.18.68.17 Greg_Conron description Oracle DBA
+name 10.192.32.0 metaswitch-lab-net description Metaswitch Lab Network
+name 172.18.75.145 pc-jim-bower
+name 172.18.75.21 sip-phone-jim-bower
+name 172.18.75.167 pc-dan-maccormack
+name 172.18.75.134 pc-claude-leblanc
+name 172.22.1.6 zimbra description Zimbra ZCS Test Server
+name 10.192.8.69 bari-afe description Barrie Mpathix VM to Email Portal
+name 10.192.8.70 wadl-afe description Waddell Mpathix VM to Email Portal
+name 10.192.8.68 ytwr-afe description Young Tower Mpathix VM to Email Portal
+name 172.22.1.79 dg-sandbox
+name 172.18.79.241 jboss-server description JBoss EAP server (Wireless middleware)
+name 32.49.247.15 jboss-server-csg description JBoss EAP server for wireless middleware
+dns-guard
+!
+interface GigabitEthernet0
+ description HLFX-PCR1/2 (Gi3/16)
+ nameif packetcable-atlantic
+ security-level 30
+ ip address 172.22.254.28 255.255.255.248 standby 172.22.254.29 
+ ospf authentication-key Ea$tENG
+ ospf authentication message-digest
+!
+interface GigabitEthernet1
+ description ENG-ASR1/2 (Gi1/20)
+ nameif eng-atlantic
+ security-level 90
+ ip address 172.22.254.1 255.255.255.240 standby 172.22.254.2 
+ ospf authentication-key Ea$tENG
+ ospf authentication message-digest
+!
+interface GigabitEthernet2
+ description HLFX-ASR3/4 (Gi1/14)
+ nameif internet
+ security-level 0
+ ip address 24.222.0.191 255.255.255.0 standby 24.222.0.192 
+ ospf cost 10
+!
+interface GigabitEthernet3
+ description LAN/STATE Failover Interface
+!
+interface Ethernet0
+ description HLFX-DR5/6 (Gi6/22)
+ nameif corp
+ security-level 70
+ ip address 172.18.106.2 255.255.255.0 standby 172.18.106.3 
+ ospf cost 10
+!
+interface Ethernet1
+ description ENG-DMZ1/2 (Fa0/1) CSG
+ nameif csg
+ security-level 40
+ ip address 32.49.247.30 255.255.255.240 standby 32.49.247.29 
+ ospf cost 10
+!
+interface Ethernet2
+ description ENG-DMZ1/2 (Fa0/13) Device Provisioning (Incognito BCC)
+ speed 100
+ duplex full
+ nameif devprov
+ security-level 40
+ ip address 172.22.22.1 255.255.255.224 standby 172.22.22.2 
+ ospf cost 10
+!
+interface Ethernet3
+ description ENG-DMZ1/2 (Fa0/1) Internet DMZ
+ shutdown
+ nameif inetdmz
+ security-level 30
+ ip address 24.222.33.97 255.255.255.240 standby 24.222.33.98 
+ ospf cost 10
+!
+interface Ethernet4
+ no nameif
+ no security-level
+ no ip address
+!
+interface Ethernet4.339
+ description Federal Government ACD/Perimeter server DMZ
+ shutdown
+ vlan 339
+ nameif acd
+ security-level 40
+ ip address 24.222.33.121 255.255.255.248 standby 24.222.33.122 
+ ospf cost 10
+!
+interface Ethernet4.500
+ description Central Engineering Network
+ vlan 500
+ nameif eng-central
+ security-level 85
+ ip address 172.16.101.76 255.255.255.248 standby 172.16.101.75 
+ ospf cost 10
+!
+interface Ethernet5
+ description Persona Nfld
+ speed 100
+ duplex full
+ nameif persona-nfld
+ security-level 69
+ ip address 10.199.199.9 255.255.255.248 standby 10.199.199.10 
+ ospf cost 10
+!
+passwd 2KFQnbNIdI.2KYOU encrypted
+banner exec *****************************************
+banner exec *                                       *
+banner exec *  EastLink Engineering and Operations  *
+banner exec *   UNAUTHORIZED ACCESS IS PROHIBITED   *
+banner exec *                                       *
+banner exec *****************************************
+banner login UNAUTHORIZED ACCESS IS PROHIBITED
+ftp mode passive
+clock timezone AST -4
+clock summer-time ADT recurring
+dns server-group DefaultDNS
+ domain-name eng.eastlink.ca
+same-security-traffic permit intra-interface
+object-group network netmgmt-networks
+ network-object netmgmt-servers 255.255.255.0
+ network-object netmgmt-users 255.255.255.0
+ network-object smp-kdm-servers 255.255.255.0
+object-group network corp-networks
+ network-object 172.18.0.0 255.255.0.0
+ network-object 172.20.0.0 255.255.252.0
+ network-object 10.218.0.0 255.255.0.0
+ network-object 172.20.22.0 255.255.254.0
+ network-object 172.20.24.0 255.255.248.0
+ network-object host 192.168.204.205
+ network-object 192.168.160.0 255.255.255.128
+ network-object 192.168.160.160 255.255.255.224
+ network-object 192.168.160.192 255.255.255.192
+ network-object 192.168.169.0 255.255.255.0
+ network-object 192.168.170.0 255.255.255.0
+ network-object 192.168.190.0 255.255.255.0
+ network-object host 192.168.1.6
+object-group network internet-radius-allowed
+ network-object 10.0.0.0 255.0.0.0
+ network-object 24.222.79.0 255.255.255.0
+ network-object 24.222.97.0 255.255.255.0
+ network-object 24.222.84.96 255.255.255.224
+ network-object host 208.110.47.242
+ network-object host 24.129.239.241
+ network-object host 64.178.142.189
+ network-object host 64.178.142.210
+ network-object host 64.178.142.217
+ network-object host 64.178.142.237
+ network-object host 64.178.142.251
+ network-object host 64.178.142.3
+ network-object host 64.178.142.161
+ network-object host 209.52.115.33
+ network-object host 64.178.142.195
+ network-object host 66.244.206.250
+ network-object host 76.11.59.242
+ network-object internet-servers 255.255.255.0
+ network-object host 24.222.0.144
+ network-object host 66.244.207.254
+ network-object host 204.244.60.65
+ network-object host 209.52.112.129
+ network-object host 204.244.59.1
+ network-object host 64.178.142.2
+ network-object host 64.178.142.200
+ network-object host 64.178.142.1
+ network-object host 64.178.142.218
+ network-object 24.137.100.0 255.255.255.0
+ network-object host 173.252.47.175
+ network-object host 173.252.47.174
+ network-object host 24.139.20.20
+ network-object host 24.139.20.30
+ network-object host 24.222.171.26
+ network-object host 24.222.171.27
+ network-object 172.26.0.0 255.255.0.0
+object-group network internet-trap-allowed
+ network-object internet-servers 255.255.0.0
+ network-object 10.0.0.0 255.0.0.0
+ network-object 24.89.192.0 255.255.192.0
+ network-object 24.224.128.0 255.255.128.0
+ network-object 10.210.0.0 255.255.192.0
+ network-object 24.137.100.0 255.255.255.0
+object-group network internet-ssh-allowed
+ network-object 24.215.101.0 255.255.255.0
+ network-object 24.215.102.0 255.255.255.0
+object-group network netmgmt-nat
+ network-object 24.222.0.160 255.255.255.224
+ network-object host nm1-internet
+ network-object host nm2-internet
+ network-object host sw-internet
+ network-object host 24.222.0.156
+ network-object host 24.222.0.157
+ network-object host rx8-internet
+ network-object host voyeur-internet
+ network-object swen-internet 255.255.255.255
+ network-object host tools-internet
+ network-object host swen4-internet
+ network-object host swen5-internet
+object-group network ellacoya-switches
+ description Ellcoya policy switches and SLE users
+ network-object host 24.222.97.34
+ network-object host 24.222.1.2
+ network-object host 24.222.1.65
+ network-object 10.5.6.0 255.255.255.0
+ network-object 10.5.1.0 255.255.255.0
+ network-object 64.223.136.0 255.255.255.0
+ network-object 63.223.136.0 255.255.255.0
+ network-object host 67.58.192.50
+ network-object host 172.22.5.103
+ network-object host 24.207.0.210
+ network-object host 24.207.0.211
+ network-object host 10.220.17.4
+ network-object host 10.220.17.5
+ network-object 64.178.142.0 255.255.255.192
+ network-object 10.5.7.0 255.255.255.0
+ network-object 10.5.11.0 255.255.255.0
+ network-object 10.5.5.0 255.255.255.0
+ network-object host 10.220.17.6
+ network-object host 172.20.23.146
+ network-object host 24.129.239.243
+ network-object host 172.20.23.152
+ network-object host 10.220.17.7
+ network-object host 10.220.17.8
+object-group network persona-access
+ description Persona Workstation Access
+ network-object 24.207.1.0 255.255.255.0
+ network-object host 24.81.135.98
+ network-object host 24.82.166.57
+ network-object host 66.103.44.85
+ network-object host 66.103.44.73
+ network-object host 66.103.44.86
+ network-object 24.222.143.0 255.255.255.0
+ network-object 64.178.142.0 255.255.255.0
+object-group network inoc-remote-users
+ network-object cwambolt-homelan 255.255.255.252
+ network-object dbates-homelan 255.255.255.248
+ network-object hcook-homelan 255.255.255.248
+ network-object inoc-blackberry-http 255.255.255.0
+ network-object inoc-blackberry-ssh 255.255.255.0
+ network-object jrubinger-homelan 255.255.255.252
+ network-object kjones-homelan 255.255.255.248
+ network-object lbrinton-homelan 255.255.255.248
+ network-object lbrinton-officelan 255.255.255.252
+ network-object mhart-officelan 255.255.255.248
+ network-object prichardson-homelan 255.255.255.248
+ network-object pfurlong-homelan 255.255.255.248
+ network-object rsachetti-homelan 255.255.255.248
+ network-object sirvine-homelan 255.255.255.248
+ network-object host bavt-laptop
+object-group network internet-web-allowed
+ network-object internet-servers 255.255.254.0
+ network-object 24.222.10.192 255.255.255.224
+ network-object host ovis-inet
+ network-object host AdvantageTerm
+ network-object host Amtel_NAT
+ group-object persona-access
+ group-object inoc-remote-users
+ network-object host 24.139.16.110
+ network-object host AdvantageIP1
+ network-object host AdvantageIP2
+ network-object host AdvantageNewFirewall
+ network-object host 24.222.140.2
+ network-object host 24.235.32.146
+object-group network internet-bb-allowed
+ network-object internet-servers 255.255.255.0
+ network-object 24.138.0.0 255.255.255.0
+ network-object 10.10.10.0 255.255.255.0
+ network-object slb-network 255.255.255.0
+object-group network internet-ident-allowed
+ network-object internet-servers 255.255.255.0
+ network-object 24.138.0.0 255.255.255.0
+object-group network techmgr-home-users
+ network-object schurch-homelan 255.255.255.252
+object-group network internet-nameservers
+ network-object host 24.222.0.33
+ network-object host 24.222.0.5
+ network-object host 24.222.0.16
+ network-object host 24.222.0.19
+object-group network cslan-allowed
+ network-object host 172.18.75.70
+ network-object host 172.18.75.42
+ network-object host 172.18.75.65
+ network-object host 172.18.75.74
+ network-object host 172.18.75.72
+ network-object host 172.18.75.100
+ network-object host 172.18.75.71
+ network-object host 172.18.101.100
+ network-object host 172.18.46.13
+ network-object host 172.18.55.55
+ network-object host 172.18.75.19
+ network-object host 172.18.75.41
+ network-object host 172.18.75.27
+ network-object host 172.18.75.60
+ network-object host jim_cyr_pc
+ network-object host 172.18.101.86
+ network-object 172.18.75.128 255.255.255.192
+object-group network netmgmt-nat_real
+ network-object netmgmt-users 255.255.255.224
+ network-object nm1 255.255.255.255
+ network-object nm2 255.255.255.255
+ network-object sw 255.255.255.255
+ network-object 172.22.1.13 255.255.255.255
+ network-object 172.22.1.14 255.255.255.255
+ network-object rx8 255.255.255.255
+ network-object voyeur 255.255.255.255
+ network-object swen 255.255.255.255
+ network-object host tools
+object-group network csg-networks
+ description CSG Network Blocks
+ network-object 205.144.149.0 255.255.255.0
+ network-object 205.144.150.0 255.255.255.0
+ network-object 205.144.151.0 255.255.255.0
+ network-object 205.144.152.0 255.255.255.0
+ network-object 205.144.146.0 255.255.255.0
+ network-object 206.221.48.0 255.255.240.0
+ network-object 205.144.155.0 255.255.255.0
+ network-object 205.144.147.0 255.255.255.0
+ network-object 205.144.153.0 255.255.255.0
+object-group network radius-servers-real
+ description RADIUS Servers (real IPs)
+ network-object nm2 255.255.255.255
+ network-object voyeur 255.255.255.255
+object-group network radius-servers-nat
+ description RADIUS servers (translated IPs)
+ network-object nm2-internet 255.255.255.255
+ network-object voyeur-internet 255.255.255.255
+ network-object host auth1-internet
+ network-object host auth2-internet
+object-group network cslan
+ description CS2000 CallP, Bearer, and OAM&P Networks
+ network-object 10.207.0.0 255.255.254.0
+ network-object 10.207.4.0 255.255.254.0
+ network-object 10.207.8.0 255.255.254.0
+ network-object 172.16.100.0 255.255.254.0
+ network-object 172.16.6.16 255.255.255.240
+ network-object host 172.16.6.57
+ network-object host 172.16.6.58
+ network-object host 172.16.6.52
+ network-object host 172.16.6.53
+ network-object 10.207.254.48 255.255.255.240
+ network-object 172.16.5.96 255.255.255.240
+ network-object 10.207.10.0 255.255.255.0
+ network-object 10.207.11.0 255.255.255.0
+object-group network bcc-servers
+ description Incognito Broadband Command Center servers
+ network-object host 172.22.22.11
+ network-object host 172.22.22.12
+ network-object host 172.22.22.13
+ network-object host 172.22.22.14
+ network-object host 172.22.22.9
+ network-object host smpdev02
+ network-object host 172.22.22.8
+ network-object host 172.22.22.15
+ network-object host 172.22.22.16
+ network-object host 10.192.9.34
+ network-object host 10.192.9.35
+object-group network netmgmt-servers
+ description Network Management servers
+ network-object nm1 255.255.255.255
+ network-object rx8 255.255.255.255
+ network-object host voyeur
+object-group network packetcable-emtas
+ description All PacketCable eMTAs
+ network-object 10.32.0.0 255.248.0.0
+ network-object 10.207.17.56 255.255.255.252
+ network-object 10.152.0.0 255.248.0.0
+ network-object 10.40.0.0 255.255.0.0
+ network-object 10.162.0.0 255.254.0.0
+ network-object 10.164.0.0 255.254.0.0
+ network-object 10.166.0.0 255.254.0.0
+ network-object 10.77.0.0 255.255.128.0
+ network-object 10.195.16.0 255.255.240.0
+ network-object 10.195.32.0 255.255.240.0
+ network-object 10.195.48.0 255.255.240.0
+object-group network eng-nameservers
+ network-object host nm1
+ network-object host nm2
+object-group network packetcable-nameservers
+ network-object host 10.207.2.10
+ network-object host 10.207.2.138
+object-group network packetcable-cmts
+ network-object 10.207.255.0 255.255.255.0
+ network-object 10.207.17.0 255.255.255.0
+ network-object 10.207.18.0 255.255.255.0
+ network-object 10.207.26.0 255.255.255.0
+ network-object 10.207.27.0 255.255.255.0
+object-group network corp-nameservers
+ description Corporate DNS Servers
+ network-object host 172.18.101.143
+ network-object host 172.18.101.144
+object-group network vpn-address-pools
+ network-object 172.22.3.0 255.255.255.0
+ network-object 172.22.4.0 255.255.255.0
+ network-object 172.22.5.0 255.255.255.0
+ network-object 172.22.6.0 255.255.255.0
+object-group network devprov-networks
+ network-object 172.22.22.0 255.255.255.224
+object-group network packetcable-networks
+ network-object 10.207.0.0 255.255.0.0
+ network-object 10.32.0.0 255.248.0.0
+ network-object 172.22.254.24 255.255.255.248
+ network-object 10.40.0.0 255.255.0.0
+ network-object 10.77.0.0 255.255.240.0
+ network-object 10.162.0.0 255.254.0.0
+ network-object 10.164.0.0 255.254.0.0
+ network-object 10.166.0.0 255.254.0.0
+object-group network eng-ldapservers
+ network-object host auth1
+ network-object host auth2
+object-group network data-mediation-servers
+ network-object host 172.22.20.21
+ network-object host 172.22.20.22
+object-group network packetcable-routers
+ network-object host 10.207.255.1
+ network-object host 10.207.255.2
+ network-object host 172.22.254.26
+ network-object host 172.22.254.27
+ network-object host 10.207.255.101
+ network-object host 10.207.255.102
+ network-object host 172.22.254.33
+ network-object host 172.22.254.34
+object-group network tmon-appliances
+ network-object host tmon1-nat
+ network-object host tmon2-nat
+ network-object host psmon1-nat
+ network-object host psmon2-nat
+ network-object host 24.222.0.164
+object-group network ossgate-allowed
+ network-object host rod_smith
+ network-object host Greg_Conron
+ network-object host Patrick_Oleary
+object-group network sigma-smp-servers
+ network-object host smpweb01
+ network-object host smpweb02
+ network-object host smpapp01
+ network-object host smpapp02
+ network-object host smpwladm
+ network-object host smpdb01
+ network-object host smpdev01
+ network-object host smpdev02
+ network-object host smpdb02
+ network-object host smpapp03
+ network-object host smpapp04
+ network-object host smpweb
+ network-object host smpdev03
+ object-group service sigma-smp-tcp tcp
+ description TCP ports required by Sigma SMP
+ port-object eq 25801
+ port-object eq 9000
+ port-object eq 9101
+ port-object eq www
+ port-object eq 8181
+ port-object eq 35000
+ port-object eq 35801
+object-group service incognito-tcp tcp
+ description TCP ports required for Incognito BCC
+ port-object eq 9996
+object-group service data-mediation-tcp tcp
+ description TCP ports used by Kenan Data Mediation
+ port-object eq https
+ port-object eq www
+ port-object eq 42080
+ port-object eq 1099
+object-group network sw-webservers
+ description Solarwinds Webservers
+ network-object host swen
+ network-object host sw
+object-group network sw-webservers-nat
+ description Solarwinds Webservers
+ network-object host swen-internet
+ network-object host sw-internet
+ network-object host swen5-internet
+object-group network privlan-ip-allowed
+ description Corporate IPs allowed flul IP access to the Private LAN
+ network-object host 172.18.1.12
+ network-object host 172.18.1.24
+ network-object host 172.18.9.41
+ network-object host 172.18.35.77
+ network-object host 172.18.36.13
+ network-object host 172.18.46.11
+ network-object host 172.18.46.13
+ network-object host 172.18.47.13
+ network-object host 172.18.50.22
+ network-object host 172.18.50.49
+ network-object host 172.18.50.59
+ network-object host 172.18.55.32
+ network-object host 172.18.62.24
+ network-object host 172.18.62.34
+ network-object host 172.18.62.40
+ network-object host 172.18.66.11
+ network-object host 172.18.66.12
+ network-object host 172.18.66.13
+ network-object host 172.18.66.16
+ network-object host 172.18.66.17
+ network-object host 172.18.66.18
+ network-object host 172.18.66.23
+ network-object host 172.18.66.25
+ network-object host 172.18.66.26
+ network-object host 172.18.66.29
+ network-object host 172.18.66.31
+ network-object host 172.18.66.38
+ network-object host 172.18.66.39
+ network-object host 172.18.66.40
+ network-object host 172.18.66.43
+ network-object host 172.18.66.44
+ network-object host 172.18.66.45
+ network-object host 172.18.68.11
+ network-object host Greg_Conron
+ network-object host 172.18.68.16
+ network-object host Lynn_Hamood_Temp
+ network-object host rod_smith
+ network-object host 172.18.75.30
+ network-object host 172.18.75.32
+ network-object host 172.18.75.39
+ network-object host 172.18.75.42
+ network-object host 172.18.75.47
+ network-object host 172.18.75.50
+ network-object host 172.18.75.51
+ network-object host 172.18.75.55
+ network-object host 172.18.75.56
+ network-object host 172.18.75.64
+ network-object host 172.18.75.65
+ network-object host 172.18.75.66
+ network-object host 172.18.75.72
+ network-object host 172.18.75.74
+ network-object host 172.18.75.78
+ network-object host 172.18.75.80
+ network-object host 172.18.75.81
+ network-object host 172.18.75.84
+ network-object host 172.18.75.86
+ network-object host 172.18.75.87
+ network-object host 172.18.75.93
+ network-object host 172.18.75.100
+ network-object host 172.18.75.101
+ network-object host 172.18.75.103
+ network-object host 172.18.75.105
+ network-object host 172.18.75.106
+ network-object host 172.18.75.107
+ network-object host 172.18.75.108
+ network-object host 172.18.75.110
+ network-object host 172.18.75.111
+ network-object host 172.18.75.29
+ network-object host 172.18.77.12
+ network-object host 172.18.77.13
+ network-object host 172.18.77.14
+ network-object host 172.18.77.16
+ network-object host 172.18.77.19
+ network-object host 172.18.77.20
+ network-object host 172.18.77.22
+ network-object host 172.18.77.23
+ network-object host 172.18.77.24
+ network-object host 172.18.77.27
+ network-object host 172.18.77.31
+ network-object host 172.18.77.50
+ network-object host 172.18.82.13
+ network-object host 172.18.82.15
+ network-object host 172.18.82.17
+ network-object host 172.18.82.22
+ network-object host 172.18.82.25
+ network-object host 172.18.82.34
+ network-object host 172.18.101.100
+ network-object host 172.18.101.72
+ network-object host 172.18.105.24
+ network-object host 172.18.105.25
+ network-object host 172.18.105.26
+ network-object host 172.18.101.30
+ network-object host 172.20.0.53
+ network-object host 172.20.0.83
+ network-object host 172.20.0.101
+ network-object host 172.20.0.113
+ network-object host 172.20.0.123
+ network-object host 172.20.3.82
+ network-object host 172.20.0.77
+ network-object host 172.18.77.25
+ network-object host 172.18.77.21
+ network-object host 172.18.77.35
+ network-object host 172.18.77.41
+ network-object host 172.18.77.17
+ network-object host 172.18.77.42
+ network-object host 172.18.82.12
+ network-object host 172.18.66.19
+ network-object host 172.18.62.11
+ network-object host 172.18.50.36
+ network-object host 172.18.75.19
+ network-object host 172.18.75.41
+ network-object host 172.18.50.120
+ network-object host 172.18.50.121
+ network-object host 172.18.50.122
+ network-object host 172.18.50.123
+ network-object host jim_cyr_pc
+ network-object 172.18.118.0 255.255.255.192
+ network-object 172.18.119.0 255.255.255.192
+ network-object host 172.18.82.14
+ network-object host 172.18.75.60
+ network-object host 172.18.75.96
+ network-object host 172.18.66.20
+ network-object host 172.18.66.21
+ network-object host 172.18.66.32
+ network-object host 172.20.0.58
+ network-object host 172.20.0.54
+ network-object host 172.18.77.60
+ network-object host 172.18.75.33
+ network-object host 172.18.77.57
+ network-object host 172.18.75.118
+ network-object host 172.18.75.129
+ network-object host 172.18.77.56
+ network-object host 172.18.77.59
+ network-object host 172.18.77.64
+ network-object host 172.18.77.65
+ network-object host 172.18.77.66
+ network-object host 172.18.77.67
+ network-object host 172.18.77.68
+ network-object host 172.18.77.74
+ network-object host 172.18.77.75
+ network-object host 172.18.77.76
+ network-object host 172.18.77.18
+ network-object host 172.18.77.26
+ network-object host 172.18.77.38
+ network-object host 172.18.77.43
+ network-object host 172.18.77.48
+ network-object host 172.18.77.49
+ network-object host 172.18.77.53
+ network-object host 172.18.77.55
+ network-object host 172.18.77.61
+ network-object host 172.18.77.63
+ network-object host 172.18.94.17
+ network-object host 172.18.75.35
+ network-object host 172.18.77.15
+ network-object 172.20.101.0 255.255.255.0
+ network-object host 172.18.110.22
+ network-object host 172.18.41.20
+ network-object host 172.18.75.160
+ network-object 172.18.80.128 255.255.255.192
+ network-object host 172.18.75.128
+ network-object host 172.18.75.27
+ network-object host 172.18.75.99
+ network-object host 172.18.53.33
+ network-object host 172.18.53.35
+ network-object host 172.18.53.36
+ network-object host 172.18.53.38
+ network-object host 172.18.75.139
+ network-object host 172.18.75.31
+ network-object 172.18.111.0 255.255.255.224
+ network-object 172.18.77.128 255.255.255.192
+ network-object host 172.18.110.116
+ network-object 172.18.66.128 255.255.255.192
+ network-object 172.18.92.128 255.255.255.248
+ network-object 172.18.75.128 255.255.255.192
+ network-object host 172.18.75.23
+ network-object host 172.18.53.23
+ network-object host 172.18.53.30
+object-group network privlan-http-allowed
+ description Corporate IPs allowed HTTP-only access to the Private LAN   
+ network-object host 172.18.2.17
+ network-object host 172.18.2.39
+ network-object host 172.18.23.12
+ network-object host 172.18.24.11
+ network-object host 172.18.25.34
+ network-object host 172.18.27.17
+ network-object host 172.18.27.58
+ network-object host 172.18.28.16
+ network-object host 172.18.31.25
+ network-object host 172.18.35.12
+ network-object host 172.18.39.34
+ network-object host 172.18.47.14
+ network-object host 172.18.50.35
+ network-object host 172.18.62.25
+ network-object host 172.18.62.26
+ network-object host 172.18.62.50
+ network-object host 172.18.75.16
+ network-object host 172.18.75.61
+ network-object host 172.20.0.72
+ network-object host 172.18.2.20
+ network-object host 172.18.62.18
+ network-object host 172.18.47.12
+ network-object 172.18.118.64 255.255.255.192
+ network-object 172.18.119.64 255.255.255.192
+ network-object host 172.18.75.58
+ network-object host 172.18.75.139
+object-group network privlan-networks
+ description Private LAN Networks
+ network-object 192.168.129.0 255.255.255.0
+ network-object 10.200.0.0 255.255.0.0
+ network-object 10.201.0.0 255.255.0.0
+ network-object 10.202.0.0 255.255.0.0
+object-group network sunconnect-allowed
+ description Hosts allowed to communicate with the Sun Connect Console
+ network-object 10.10.10.0 255.255.255.0
+ network-object internet-servers 255.255.255.0
+object-group network ovis-remote-probes
+ network-object host 24.222.0.20
+ network-object host ovis-inet
+object-group service sunconnect-tcp-out tcp
+ description Outbound TCP ports used by SunConnect
+ port-object eq 3742
+ port-object eq https
+ port-object eq www
+ port-object eq 7654
+object-group service sunconnect-tcp-in tcp
+ description Inbound TCP ports used by SunConnect
+ port-object eq 3306
+ port-object eq 3742
+ port-object eq https
+ port-object eq www
+ port-object eq 8000
+ port-object eq 8080
+ port-object eq 8443
+ port-object eq 7654
+object-group network nortel-users
+ network-object host 63.149.188.28
+ network-object host 63.149.188.9
+object-group network metrobility-shelves
+ network-object host 172.24.7.29
+ network-object host 172.24.7.32
+ network-object host 172.24.9.203
+ network-object host 172.24.7.12
+ network-object host 172.24.10.7
+ network-object host 172.24.11.198
+ network-object host 172.24.11.5
+ network-object host 172.24.11.67
+ network-object host 172.24.11.68
+ network-object host 172.24.12.2
+ network-object host 172.24.6.12
+ network-object host 172.24.7.24
+ network-object host 172.24.7.27
+ network-object host 172.24.8.36
+ network-object host 172.24.8.37
+ network-object host 172.24.8.38
+ network-object host 172.24.9.198
+ network-object host 172.24.9.6
+ network-object host 172.24.9.70
+ network-object host 172.24.8.47
+object-group service openview-tcp tcp
+ description TCP ports required by HP Openview NNM
+ port-object eq ssh
+ port-object eq 2447
+ port-object range 2953 2954
+ port-object eq 3443
+ port-object eq 3700
+ port-object eq www
+object-group service ovis-tcp tcp
+ description TCP ports used by HP Openview Internet Services
+ port-object eq 6604
+ port-object eq www
+ port-object eq 8080
+object-group service sigma-sb-tcp tcp
+ description TCP ports used by Sigma Service Broker
+ port-object eq sqlnet
+ port-object eq 30055
+ port-object eq 8181
+ port-object eq 8080
+object-group service metrobility-tcp tcp
+ description TCP ports required to manage Metrobility shelves
+ port-object eq www
+ port-object eq telnet
+object-group service ellacoya-tcp tcp
+ description TCP ports required for Ellacoya switches to communicate with SLE
+ port-object eq 1099
+ port-object eq ftp
+ port-object eq ssh
+ port-object range 32000 39000
+ port-object eq 4389
+ port-object eq 4444
+ port-object range 45500 46000
+ port-object eq www
+ port-object eq 8090
+object-group service ossgate-tcp tcp
+ description TCP ports used by Nortel CS2000 OSSGate
+ port-object eq 10023
+object-group service sw-tcp tcp
+ description TCP ports used by Solarwinds web access
+ port-object eq www
+ port-object eq 8001
+ port-object eq 8080
+ port-object eq https
+object-group service radius-udp udp
+ description UDP ports required by RADIUS
+ port-object range radius radius-acct
+ port-object range 1812 1813
+object-group service sonexis-tcp-in tcp
+ description Inbound TCP ports used by Sonexis conference bridge
+ port-object eq https
+ port-object eq www
+ port-object eq 8097
+ port-object eq 3389
+ port-object range 9001 9005
+object-group service sonexis-tcp-out tcp
+ description Outbound TCP ports required by Sonexis conference bridge
+ port-object eq smtp
+object-group network ironport-mgas
+ description IronPort Message Gateway Appliances
+ network-object 24.222.10.0 255.255.255.224
+ network-object ironport-listeners 255.255.255.128
+object-group network rt-email-allowed
+ description Hosts/Networks allowed to send email directly to RT
+ network-object 24.222.10.0 255.255.255.224
+ network-object internet-servers 255.255.254.0
+ network-object 172.18.0.0 255.255.0.0
+ network-object ironport-listeners 255.255.255.128
+object-group service traceroute-udp udp
+ description Traceroute UPD Ports
+ port-object range 33434 33534
+object-group service web-tcp tcp
+ description Ports required for web-based applications
+ port-object eq www
+ port-object eq https
+ port-object range 8080 8082
+ port-object eq 3000
+object-group service sigma-p2-test-tcp tcp
+ description TEMPORARY group for Sigma Phase 2 development/testing
+ port-object eq ldap
+ port-object eq ssh
+ port-object eq telnet
+ port-object range 9996 9999
+ port-object eq ftp
+object-group network internet-cablemodems
+ description HSI Cablemodem IP addresses
+ network-object 10.17.208.0 255.255.240.0
+ network-object 10.17.32.0 255.255.255.0
+object-group network internet-cpe
+ description Internet CPE IP Addresses
+ network-object 24.222.23.88 255.255.255.248
+ network-object 24.222.76.240 255.255.255.240
+ network-object 24.222.135.248 255.255.255.248
+object-group network lab-arris1-cm-cpe
+ description CM and CPE on LAB-ARRIS1
+ network-object 10.17.208.0 255.255.240.0
+ network-object 24.222.23.88 255.255.255.248
+ network-object 24.222.76.240 255.255.255.240
+ network-object 192.168.24.0 255.255.255.0
+object-group network internet-bcc-allowed
+ description Internet IP addresses allowed to access Incognito BCC
+ network-object 192.168.24.0 255.255.255.0
+ network-object 10.19.16.0 255.255.240.0
+ network-object 24.222.76.240 255.255.255.240
+object-group network eastlink-corp-nat
+ network-object 24.222.1.0 255.255.255.0
+ network-object 24.222.87.32 255.255.255.224
+object-group network bb-servers
+ description Big Brother/Hobbit Servers
+ network-object host tools-internet
+ network-object host tools
+object-group service smpdev02-tcp tcp
+ port-object eq ftp
+ port-object eq www
+object-group network persona-central-networks
+ network-object 172.28.0.0 255.255.0.0
+ network-object 192.168.238.0 255.255.255.0
+ network-object 192.168.225.0 255.255.255.240
+ network-object 10.64.0.0 255.255.0.0
+ network-object 192.168.205.0 255.255.255.0
+ network-object 192.168.233.0 255.255.255.0
+ network-object 10.220.0.0 255.255.0.0
+ network-object 10.137.0.0 255.255.0.0
+ network-object 172.30.0.0 255.255.0.0
+ network-object 10.130.0.0 255.255.0.0
+ network-object 192.168.253.0 255.255.255.0
+ network-object 192.168.241.0 255.255.255.0
+ network-object 192.168.70.0 255.255.255.0
+ network-object 10.250.32.0 255.255.255.0
+ network-object 192.168.247.0 255.255.255.0
+ network-object 192.168.223.0 255.255.255.240
+ network-object 192.168.10.0 255.255.255.224
+ network-object 10.20.0.0 255.255.0.0
+ network-object 10.248.0.0 255.255.0.0
+ network-object 192.168.231.0 255.255.255.0
+ network-object 192.168.206.0 255.255.255.0
+ network-object 192.168.220.0 255.255.255.0
+ network-object 216.104.96.0 255.255.255.0
+ network-object 192.168.0.0 255.255.255.0
+ network-object 172.20.4.0 255.255.255.0
+ network-object 172.20.100.0 255.255.255.192
+ network-object 10.254.34.0 255.255.255.0
+ network-object 10.131.0.0 255.255.0.0
+ network-object 172.20.101.0 255.255.255.0
+ network-object 10.132.0.0 255.252.0.0
+ network-object 10.136.0.0 255.254.0.0
+ network-object 10.139.0.0 255.255.0.0
+ network-object 10.146.0.0 255.254.0.0
+ network-object 10.148.0.0 255.255.0.0
+ network-object 10.152.0.0 255.248.0.0
+ network-object 10.160.0.0 255.255.0.0
+ network-object 10.172.0.0 255.252.0.0
+ network-object 10.177.0.0 255.255.0.0
+ network-object 10.178.0.0 255.254.0.0
+ network-object 10.180.0.0 255.252.0.0
+ network-object 10.185.0.0 255.255.0.0
+ network-object 10.186.0.0 255.254.0.0
+ network-object 10.191.0.0 255.255.0.0
+ network-object 10.110.0.0 255.254.0.0
+ network-object 192.168.236.0 255.255.254.0
+ network-object 192.168.244.0 255.255.254.0
+ network-object 192.168.248.0 255.255.252.0
+ network-object 192.168.255.0 255.255.255.0
+ network-object 172.20.10.0 255.255.255.192
+ network-object 10.112.0.0 255.255.0.0
+ network-object 192.168.204.192 255.255.255.192
+ network-object 172.27.1.0 255.255.255.0
+object-group network persona-western-networks
+ description Persona Western Internal Networks
+ network-object grande-prairie-network 255.255.255.0
+object-group network persona-delta-networks
+ description Delta Networks
+ network-object 192.168.160.0 255.255.255.0
+ network-object 192.168.169.0 255.255.255.0
+ network-object 192.168.190.0 255.255.255.0
+ network-object 24.207.0.160 255.255.255.240
+ network-object 192.168.170.0 255.255.255.0
+ network-object 192.168.175.0 255.255.255.0
+object-group network persona-networks
+ group-object persona-central-networks
+ network-object 10.199.199.8 255.255.255.248
+ group-object persona-western-networks
+ network-object host 216.104.96.130
+ group-object persona-delta-networks
+ network-object 66.103.44.68 255.255.255.252
+object-group network eastlink-to-persona-central
+ network-object 172.22.0.0 255.255.0.0
+ network-object 24.222.33.96 255.255.255.240
+ network-object 172.18.0.0 255.255.0.0
+object-group network persona-nameservers
+ description Persona internal DNS servers
+ network-object host 192.168.237.242
+ network-object host 192.168.237.243
+object-group service tvn-vod-tcp tcp
+ description TCP ports required for TVN VOD
+ port-object eq 14247
+ port-object eq 2967
+ port-object eq 6090
+ port-object eq ssh
+object-group service tvn-vod-udp udp
+ description UDP ports required for TVN VOD
+ port-object eq 14247
+ port-object eq 38293
+ port-object eq 623
+ port-object eq 664
+ port-object eq snmp
+object-group network internet-rt-allowed
+ description Internet hosts permitted to use RT
+ network-object internet-servers 255.255.254.0
+ network-object 24.222.10.192 255.255.255.224
+ network-object host ovis-inet
+ network-object host 142.227.51.193
+ network-object host 142.227.51.61
+ network-object 198.166.214.0 255.255.255.0
+ group-object inoc-remote-users
+object-group network packetcable-log-servers
+ network-object host swen
+ network-object host swen2
+ network-object 172.22.22.0 255.255.255.240
+object-group service tools-www tcp
+ description web services on tools.eng.eastlink.ca
+ port-object range 3000 3004
+ port-object eq www
+ port-object eq https
+ port-object range 8080 8082
+object-group network radius-servers-cito
+ description RADIUS servers accessible to GNS networks
+ network-object host 10.250.40.22
+ network-object host 10.250.40.23
+object-group network gns-web-allowed
+ description Web hosts that GNS are allowed to access
+ network-object host 10.250.40.4
+object-group network internet-sonexis-allowed
+ description Internet hosts allowed to access Sonexis conference server
+ network-object 24.222.16.240 255.255.255.248
+ network-object host 24.222.124.204
+ network-object host delta-nat
+ network-object host Amtel_NAT
+object-group network GNS-allowed-dest
+ description Government of NS allowed destination IPs
+ network-object host tools-internet
+ network-object host swen5-internet
+object-group network GNS-allowed-hosts
+ description Government of NS internet hosts
+ network-object host 142.227.51.193
+ network-object host 142.227.51.34
+ network-object host 142.227.51.61
+ network-object 198.166.214.0 255.255.255.0
+ network-object 142.239.0.0 255.255.0.0
+ network-object host 24.138.163.229
+object-group network portmasters
+ network-object host 24.138.1.5
+ network-object host 24.138.1.6
+ network-object host 24.138.1.7
+ network-object host 24.138.1.8
+object-group network eng-webservers
+ network-object host 172.22.1.101
+ network-object host rx8
+ network-object host swen
+ network-object host sw
+ network-object host swen2
+ network-object host tools
+ network-object host voyeur
+ network-object host ovis
+ network-object host swdata
+ network-object host nm1
+ network-object host catalyst
+ network-object host 172.22.1.69
+ network-object host swen4
+ network-object host 172.22.1.75
+ network-object host 172.22.1.36
+ network-object host 172.22.1.72
+ network-object host zimbra
+ network-object host ytwr-afe
+ network-object host bari-afe
+ network-object host wadl-afe
+ network-object host dg-sandbox
+object-group icmp-type traceroute-icmp
+ description Allow traceroutes
+ icmp-object echo
+ icmp-object echo-reply
+ icmp-object time-exceeded
+ icmp-object traceroute
+ icmp-object unreachable
+object-group network corp-mailservers
+ network-object host pluto
+object-group network corp-dmz-networks
+ description Networks in the corporate DMZ
+ network-object 24.222.14.0 255.255.255.240
+object-group network selfprov-servers
+ description Internet Self-activation Servers
+ network-object host 172.22.22.10
+ network-object host 172.22.22.9
+object-group network sigma-p2-appservers
+ description Sigma Phase 2 Application Servers
+ network-object host smpapp03
+ network-object host smpapp04
+object-group network cdli-networks
+ description CDLI Schools
+ network-object 10.108.10.0 255.255.255.0
+object-group network ellacoya-sle-servers
+ description Ellacoya SLE servers
+ network-object host 24.222.0.157
+ network-object host nm5-new
+ network-object host sle02
+ network-object host 24.222.150.136
+ network-object host 10.192.8.141
+object-group service ellacoya-tcp-inbound tcp
+ description TCP services inbound from Ellacoya switches/SLE users  to SLE
+ port-object eq 1099
+ port-object range 32000 39000
+ port-object eq 4389
+ port-object eq 4444
+ port-object range 45500 46000
+ port-object eq 8090
+ port-object eq ftp
+ port-object eq www
+ port-object eq ssh
+ port-object eq 1098
+object-group service ellacoya-tcp-outbound tcp
+ description Ellacoya outbound TCP services
+ port-object range ftp-data ftp
+ port-object eq 4389
+ port-object eq www
+object-group network dcn-remote-headends
+ network-object 10.100.224.0 255.255.224.0
+object-group service dcn-remote-headend-tcp tcp
+ description Services corp users can access in remote head ends
+ port-object eq www
+ port-object eq telnet
+object-group service dcn-remote-headends-udp udp
+ port-object eq snmp
+object-group network Multi-function-Printers
+ description Multi-function printers that can send scanned files
+ network-object host 172.18.75.12
+object-group network bcc-test-servers
+ description Test instances of Incognito BCC
+ network-object host smpdev02-nat
+ network-object host 24.222.0.73
+object-group network NSM_Xpress_Public
+ network-object host hlfx-nsm1
+ network-object host hlfx-nsm2
+object-group service NSM_Dev_Srv tcp
+ description NSM Device Server Port
+ port-object range 7800 7800
+object-group network bluewater-networks
+ network-object 192.168.90.0 255.255.255.0
+object-group network eastlink-public-netblocks
+ description All of EastLink's ARIN-assigned public address space
+ network-object 24.137.64.0 255.255.192.0
+ network-object 24.138.0.0 255.255.192.0
+ network-object 24.138.128.0 255.255.192.0
+ network-object 24.138.64.0 255.255.240.0
+ network-object 24.215.64.0 255.255.192.0
+ network-object internet-servers 255.255.0.0
+ network-object 24.224.128.0 255.255.128.0
+ network-object 24.231.64.0 255.255.224.0
+ network-object 24.89.192.0 255.255.192.0
+ network-object 66.103.32.0 255.255.224.0
+ network-object 71.7.128.0 255.255.128.0
+ network-object 76.11.0.0 255.255.128.0
+object-group network private-netblocks
+ description All RFC1918 Private address space
+ network-object 10.0.0.0 255.0.0.0
+ network-object 172.16.0.0 255.240.0.0
+ network-object 192.168.0.0 255.255.0.0
+object-group network internet-dhcp-allowed
+ group-object eastlink-public-netblocks
+ group-object private-netblocks
+object-group network delta-servers
+ network-object host 192.168.160.21
+ network-object host 192.168.170.169
+object-group network amtelecom-networks
+ network-object 10.204.0.0 255.255.248.0
+object-group network DCMN
+ description see Shawn Lewis
+ network-object 10.100.254.0 255.255.255.0
+object-group network eng-central-networks
+ description Central Engineering Networks
+ network-object 10.152.0.0 255.248.0.0
+ network-object 172.16.0.0 255.255.0.0
+ network-object 24.139.25.192 255.255.255.224
+ network-object 172.20.101.0 255.255.255.0
+ network-object 10.141.16.0 255.255.240.0
+ network-object 10.141.32.0 255.255.252.0
+object-group network central-corp-networks
+ network-object 172.27.0.0 255.255.0.0
+ network-object 10.64.0.0 255.255.0.0
+ network-object 192.168.205.0 255.255.255.0
+ network-object 192.168.237.0 255.255.255.0
+object-group network eastlink-nfld-networks
+ network-object 10.118.0.0 255.255.0.0
+ network-object 172.28.0.0 255.255.0.0
+ network-object 192.168.227.0 255.255.255.0
+ network-object 192.168.254.0 255.255.255.0
+ network-object host 10.199.199.12
+object-group network CDLI
+ description CLDI Network
+ network-object host 24.222.32.1
+object-group service http_https tcp
+ port-object eq www
+ port-object eq https
+object-group service internet-modem-services udp
+ description Allow Modems/CPEs to get online
+ port-object eq bootps
+ port-object eq domain
+ port-object eq tftp
+ port-object eq time
+object-group network power-supply-xponder-nets
+ network-object 10.210.0.0 255.255.0.0
+ network-object 10.220.0.0 255.255.0.0
+object-group network cs2k-barrie-gwc
+ description Barrie CS2K gateway controllers
+ network-object host GWC-0.BARIONSRDS0
+ network-object host GWC-2.BARIONSRDS0
+ network-object host GWC-3.BARIONSRDS0
+object-group network hlfx-pcc2-mtas
+ description PacketCable MTAs on HLFX-PCC2
+ network-object 10.32.192.0 255.255.192.0
+object-group service MGCP udp
+ description MGCP-UA and MGCP-CA
+ port-object eq 2427
+ port-object eq 2727
+object-group network cs2k-barrie-iwspm
+ description Barrie CS2K IWSPMs (PSTN GW)
+ network-object host IWSPM0-BEARER.BARIONSRDS0
+ network-object host IWSPM1-BEARER.BARIONSRDS0
+object-group network cs2k-barrie-ms2010
+ description Barrie CS2K Media Servers
+ network-object host MS2010-0-MOD0.BARIONSRDS0
+ network-object host MS2010-1-MOD0.BARIONSRDS0
+object-group network cs2k-barrie-networks
+ description Barrie CS2K CS-LAN subnets
+ network-object 172.16.100.0 255.255.254.0
+object-group network ldap-nis-clients
+ network-object internet-servers 255.255.255.0
+ network-object lab-servers 255.255.255.240
+ network-object slb-network 255.255.255.0
+ network-object ironport-listeners 255.255.255.128
+ network-object host 216.104.96.22
+ network-object host 216.104.98.222
+ network-object host 24.222.225.100
+ network-object host 24.222.225.101
+ network-object host 24.222.225.102
+object-group network eng-ldap-servers-nat
+ network-object host auth1-internet
+ network-object host auth2-internet
+object-group network Ellacoya_e30_Ontario
+ network-object host 10.220.17.6
+ network-object host 172.20.23.146
+ network-object host 10.220.17.4
+ network-object host 10.220.17.5
+ network-object host 172.20.23.152
+ network-object host 10.220.17.8
+ network-object host 172.20.23.147
+ network-object host 10.220.17.10
+ network-object host 10.220.17.11
+ network-object host 10.220.17.7
+ network-object host 10.220.17.9
+object-group network Astral_Media
+ description Astral Pitch and Catch Source IPs
+ network-object host 38.110.64.122
+ network-object host 38.110.64.123
+object-group network email-mgmt-networks
+ network-object 10.10.10.0 255.255.255.0
+ network-object 10.10.12.0 255.255.255.0
+ network-object ironport-listeners 255.255.255.128
+object-group service MNS_Mgt udp
+ port-object eq snmptrap
+ port-object eq syslog
+ port-object eq tftp
+object-group network corp-tmon-allowed
+ description Corp users allowed to access tmon servers
+ network-object host 172.20.0.52
+object-group network tmon_servers
+ network-object host tmon1
+ network-object host tmon2
+object-group network auth-smtp-relays
+ description Authorized SMTP relays
+ network-object host 24.222.0.20
+object-group network eng-mail-servers
+ description Authorized mail servers on engineering network
+ network-object host tools
+ network-object host rx8
+ network-object host telco-redhat
+ network-object host 192.168.129.151
+ network-object host auth1
+ network-object host conf-server
+ network-object host 172.22.1.55
+ network-object host ovis
+ network-object host ct01
+ network-object host 172.22.2.30
+ network-object metaswitch-lab-net 255.255.255.0
+object-group network smtp-relays
+ description Authorized SMTP relays
+ network-object host 24.222.0.20
+object-group network NetGuardians
+ network-object host 10.202.128.10
+ network-object host 10.202.128.112
+ network-object host 10.202.128.113
+ network-object host 10.202.128.114
+ network-object host 10.202.128.115
+ network-object host 10.202.128.11
+ network-object host 10.202.128.12
+ network-object host 10.202.128.13
+ network-object host 10.202.128.14
+ network-object host 10.202.128.15
+ network-object host 10.202.128.16
+ network-object host 10.202.128.17
+ network-object host 10.202.128.18
+ network-object host 10.202.128.82
+ network-object host 10.202.128.83
+ network-object host 10.202.129.108
+ network-object host 172.20.101.4
+ network-object host 172.20.101.6
+ network-object host 172.20.101.8
+ network-object host 172.20.101.9
+ network-object host 192.168.129.101
+ network-object host 192.168.129.104
+ network-object host 192.168.129.80
+ network-object host 192.168.129.81
+ network-object host 192.168.129.82
+ network-object host 192.168.129.84
+ network-object host 192.168.129.88
+ network-object host 192.168.129.89
+ network-object host 10.202.128.81
+ network-object host 10.202.64.142
+ network-object 10.202.80.80 255.255.255.240
+ network-object 10.202.80.96 255.255.255.224
+object-group network Bari-PCRs
+ network-object host 172.16.0.1
+ network-object host 172.16.0.2
+object-group network Mpathix-web
+ network-object host 10.202.252.4
+ network-object host 10.202.252.60
+ network-object host 10.202.253.60
+object-group network corp_vpn
+ network-object host 172.18.0.12
+ network-object host 172.18.0.14
+object-group network RT_allowed
+ network-object host 172.18.50.26
+ network-object host 172.18.50.73
+ network-object host 172.18.50.84
+ network-object host 172.18.50.91
+object-group network corp_mail_servers
+ network-object host 172.18.101.127
+ network-object host 172.18.101.128
+ network-object host pluto
+object-group network syslog_allowed
+ network-object host 10.5.16.10
+ network-object host 10.5.16.11
+ network-object host 10.5.16.12
+ network-object host 10.5.16.14
+ network-object host 10.5.16.15
+ network-object host 10.5.16.16
+ network-object host 10.5.16.17
+ network-object host 10.5.16.18
+ network-object host 10.5.16.19
+ network-object 10.5.5.0 255.255.255.0
+ network-object 24.137.100.0 255.255.255.0
+object-group service snmp_snmptrap udp
+ port-object eq snmp
+ port-object eq snmptrap
+object-group network mysql01_allowed
+ network-object host 172.18.100.20
+ network-object host rod_smith
+object-group service oracle_ssh tcp
+ port-object eq sqlnet
+ port-object eq ssh
+ port-object range 1158 1158
+ port-object range 5000 5010
+ port-object range 5500 5500
+object-group network Telco-ops
+ network-object 172.18.75.128 255.255.255.192
+object-group network telco_redhat_ftp_allowed
+ network-object host jim_cyr_pc
+ network-object host 172.18.68.2
+ network-object host 172.18.101.86
+ network-object host Greg_Conron
+ network-object host 172.18.68.23
+ network-object host 172.18.68.26
+object-group network auth1_auth2
+ network-object host auth1-internet
+ network-object host auth2-internet
+object-group network Solarwinds-Servers
+ network-object host swen
+ network-object host sw
+ network-object host swen2
+ network-object host swdata
+ network-object host swen4
+ network-object host swen5
+ network-object host 172.22.1.36
+ network-object host 172.22.1.48
+ network-object host 172.22.1.57
+ network-object host 172.22.1.58
+object-group network btx
+ network-object 10.207.254.16 255.255.255.240
+ network-object host 10.207.254.52
+object-group network delta-tunnel-source-networks
+ network-object 10.100.254.0 255.255.255.0
+ network-object 10.202.128.0 255.255.255.0
+ network-object host AdvantageTerm
+ network-object 172.18.0.0 255.255.0.0
+ network-object 172.22.0.0 255.255.0.0
+ network-object 205.144.151.0 255.255.255.0
+object-group network delta-tunnel-dest-networks
+ network-object 24.207.0.160 255.255.255.240
+ network-object 192.168.160.0 255.255.255.0
+ network-object 192.168.169.0 255.255.255.0
+ network-object 192.168.190.0 255.255.255.0
+ network-object 192.168.175.0 255.255.255.0
+ network-object 10.223.47.0 255.255.255.0
+object-group network Dal-NOC
+ network-object 129.173.2.0 255.255.255.0
+ network-object host 24.222.11.238
+object-group network Corp_VPN_IT_Devel
+ description Corp IT Developers VPN blocks
+ network-object 172.18.124.32 255.255.255.240
+ network-object 172.18.125.32 255.255.255.240
+ network-object host Greg_Conron
+object-group network tacacs_allowed
+ network-object 172.26.1.0 255.255.255.0
+ network-object host 172.26.104.1
+ network-object host 172.26.106.1
+object-group network opengear
+ network-object host 172.18.44.247
+ network-object host 172.18.46.250
+object-group network delta-net-ops
+ description Delta Network Operations Team
+ network-object 192.168.160.160 255.255.255.224
+object-group network Netguardians
+ network-object host 172.18.59.5
+ network-object host 172.18.61.5
+object-group network Western_NetGuardian
+ network-object 10.202.80.80 255.255.255.240
+ network-object 10.202.80.96 255.255.255.224
+object-group network metaswitch-lab-users
+ network-object host pc-jim-bower
+ network-object host sip-phone-jim-bower
+ network-object host pc-dan-maccormack
+ network-object host pc-claude-leblanc
+ network-object host 172.18.75.30
+ network-object host greg_seamone
+ network-object host 172.18.75.37
+object-group network nm1-nm2
+ network-object host nm1
+ network-object host nm2
+object-group network pcc_bcc_west_allow
+ network-object 10.195.0.0 255.255.240.0
+ network-object 10.195.16.0 255.255.240.0
+ network-object 10.195.32.0 255.255.240.0
+ network-object 10.195.48.0 255.255.240.0
+object-group service bcc_udp udp
+ port-object eq bootpc
+ port-object eq domain
+ port-object eq syslog
+ port-object eq tftp
+ port-object eq bootps
+ port-object range time time
+object-group network Corp_Reporting
+ network-object host 172.18.100.20
+ network-object host 172.18.68.23
+ network-object host 172.18.78.44
+ network-object host 172.18.101.86
+object-group network WesternDevices
+ network-object host 172.16.0.100
+ network-object host 172.16.0.101
+ network-object host 172.16.0.103
+ network-object host 172.16.0.43
+ network-object host 172.16.0.45
+object-group network VOD_AssetFlow
+ network-object host 10.100.1.126
+ network-object host 10.100.1.127
+object-group network Outage_Board
+ network-object host 172.18.101.85
+ network-object host 172.18.55.14
+ network-object host 172.18.55.17
+access-list csg-in remark Allow anything at CSG to talk to hosts with a static translation
+access-list csg-in extended permit ip object-group csg-networks 32.49.247.0 255.255.255.224 
+access-list csg-in extended permit ip host 205.144.151.188 host delta-dac inactive 
+access-list csg-in extended permit ip host 205.144.151.189 host delta-dac inactive 
+access-list csg-in extended permit icmp any 32.49.247.0 255.255.255.224 
+access-list internet-in remark Allow traceroute replies
+access-list internet-in extended permit icmp any object-group netmgmt-nat object-group traceroute-icmp 
+access-list internet-in remark Allow traceroute host reached
+access-list internet-in extended permit udp any object-group netmgmt-nat object-group traceroute-udp 
+access-list internet-in extended permit ip object-group persona-delta-networks object-group devprov-networks 
+access-list internet-in remark Frank from CDLI to get access to solar winds.
+access-list internet-in extended permit tcp object-group CDLI host swen4-internet eq www inactive 
+access-list internet-in remark Frank from CDLI to get access to solar winds.
+access-list internet-in extended permit tcp object-group CDLI host swen5-internet object-group http_https 
+access-list internet-in remark Dal access as per Curtis Wambolt
+access-list internet-in extended permit tcp object-group Dal-NOC host swen5-internet object-group http_https 
+access-list internet-in remark Allow selected Internet addresses to send SNMP traps to OV NNM
+access-list internet-in extended permit udp object-group internet-trap-allowed host nm1-internet eq snmptrap 
+access-list internet-in extended permit udp object-group internet-trap-allowed host swdata-internet eq snmptrap 
+access-list internet-in remark Allow selected Internet addresses to send SNMP traps to TMON
+access-list internet-in extended permit udp object-group internet-trap-allowed object-group tmon-appliances eq snmptrap 
+access-list internet-in remark Allow external routers and switches to access RADIUS servers
+access-list internet-in extended permit udp object-group internet-radius-allowed object-group radius-servers-nat object-group radius-udp 
+access-list internet-in remark Allow HSI routers to send TACACS+ accounting information to auth1/auth2
+access-list internet-in extended permit tcp object-group internet-radius-allowed object-group radius-servers-nat eq tacacs 
+access-list internet-in extended permit udp object-group internet-radius-allowed host lms-internet eq tftp 
+access-list internet-in remark Allow Internet DNS servers to zone transfer from nm1
+access-list internet-in extended permit tcp object-group internet-nameservers host nm1-internet eq domain 
+access-list internet-in remark Allow Internet DNS servers to query nm1
+access-list internet-in extended permit udp object-group internet-nameservers host nm1-internet eq domain 
+access-list internet-in remark Allow selected Internet addresses to access Solarwinds web interface
+access-list internet-in extended permit tcp object-group internet-web-allowed object-group sw-webservers-nat object-group sw-tcp 
+access-list internet-in remark Allow selected Internet addresses to access OVIS web interface
+access-list internet-in extended permit tcp object-group internet-web-allowed host ovis-internet eq 8080 inactive 
+access-list internet-in remark Allow selected Internet addresses to access BB and other web sites on rx8
+access-list internet-in extended permit tcp object-group internet-web-allowed host rx8-internet eq www 
+access-list internet-in remark Allow selected Internet hosts to access RT and other web sites on tools
+access-list internet-in extended permit tcp object-group internet-web-allowed host tools-internet object-group tools-www 
+access-list internet-in remark Allow GNS hosts to access selected web sites using HTTPS
+access-list internet-in extended permit tcp object-group GNS-allowed-hosts object-group GNS-allowed-dest eq https 
+access-list internet-in remark Allow SMTP to rx8 for RT ticket submission via email
+access-list internet-in extended permit tcp any host rx8-internet eq smtp 
+access-list internet-in remark lab systems to use web proxy on rx8
+access-list internet-in extended permit tcp 10.80.200.0 255.255.255.0 host rx8-internet eq 8080 
+access-list internet-in remark Allow selected Internet hosts to send BB updates to BB servers
+access-list internet-in extended permit tcp object-group internet-bb-allowed object-group bb-servers eq 1984 
+access-list internet-in extended permit tcp object-group internet-ident-allowed host rx8-internet eq ident 
+access-list internet-in remark Allow Ellacoya switches/SLE users to communicate with SLE server
+access-list internet-in extended permit tcp object-group ellacoya-switches object-group ellacoya-sle-servers object-group ellacoya-tcp-inbound 
+access-list internet-in remark Allow INOC staff home users to access Solarwinds web interface
+access-list internet-in extended permit tcp object-group inoc-remote-users object-group sw-webservers-nat object-group sw-tcp 
+access-list internet-in remark Allow INOC staff home users to access OVIS web interface
+access-list internet-in extended permit tcp object-group inoc-remote-users host ovis-internet eq 8080 inactive 
+access-list internet-in remark Allow OVIS remote probles to connect to ovis.eastlink.ca
+access-list internet-in extended permit tcp object-group ovis-remote-probes host ovis-internet object-group ovis-tcp 
+access-list internet-in remark Allow Nortel to upload DMS patches
+access-list internet-in extended permit tcp object-group nortel-users host voyeur-internet eq ftp 
+access-list internet-in remark Allow Nortel to upload DMS patches
+access-list internet-in extended permit tcp object-group nortel-users host voyeur-internet eq ftp-data 
+access-list internet-in remark Allow Nortel to ssh into Voyeur
+access-list internet-in extended permit tcp object-group nortel-users host voyeur-internet eq ssh 
+access-list internet-in remark Allow Nortel to telnet into Voyeur
+access-list internet-in extended permit tcp object-group nortel-users host voyeur-internet eq telnet 
+access-list internet-in remark Allow INOC staff home users to access MRTG and other web sites on voyeur
+access-list internet-in extended permit tcp object-group inoc-remote-users host voyeur-internet eq www 
+access-list internet-in extended permit tcp object-group inoc-remote-users object-group netmgmt-nat eq ssh 
+access-list internet-in remark Allow Tech Manager home users to access BB and other web sites on rx8
+access-list internet-in extended permit tcp object-group techmgr-home-users host rx8-internet eq www 
+access-list internet-in remark Allow netflow data export from hlfx-br2 to Solarwinds
+access-list internet-in extended permit udp host hlfx-br2 host swen-internet eq 2055 inactive 
+access-list internet-in extended permit udp any host voyeur-internet eq syslog 
+access-list internet-in remark Allow SysLog access to Solarwinds
+access-list internet-in extended permit udp object-group syslog_allowed host swdata-internet eq syslog 
+access-list internet-in remark Allow SysLog access to Ciscoworks
+access-list internet-in extended permit udp 10.5.5.0 255.255.255.0 host lms-internet eq syslog 
+access-list internet-in extended permit udp 24.137.100.0 255.255.255.0 host lms-internet eq syslog 
+access-list internet-in remark Allow selected agents to connect to SunConnect console
+access-list internet-in extended permit tcp object-group sunconnect-allowed host sunconnect-nat object-group sunconnect-tcp-in inactive 
+access-list internet-in remark Allow Sun Connect clients to ping console
+access-list internet-in extended permit icmp object-group sunconnect-allowed host sunconnect-nat inactive 
+access-list internet-in remark Allow Ironport MGAs to send mail to tools.eng.eastlink.ca
+access-list internet-in extended permit tcp object-group rt-email-allowed host tools-internet eq smtp 
+access-list internet-in remark Allow Ironport MGAs to send mail to rtalt.eng.eastlink.ca
+access-list internet-in extended permit tcp ironport-listeners 255.255.255.0 host rt-alt-internet eq smtp 
+access-list internet-in extended permit udp object-group portmasters host radiusx-internet object-group radius-udp 
+access-list internet-in extended permit icmp object-group portmasters host radiusx-internet 
+access-list internet-in remark Allow public web access to CG server
+access-list internet-in extended permit tcp any host cg-internet eq www 
+access-list internet-in remark Allow public secure web access to CG server
+access-list internet-in extended permit tcp any host cg-internet eq https 
+access-list internet-in remark Allow ssh from Server LAN to CG server
+access-list internet-in extended permit tcp internet-servers 255.255.255.0 host cg-internet eq ssh 
+access-list internet-in remark Allow ntp from Server LAN to Internet DMZ
+access-list internet-in extended permit udp internet-servers 255.255.255.0 24.222.33.96 255.255.255.240 eq ntp 
+access-list internet-in remark Allow UDP initiated traceroutes to Internet DMZ
+access-list internet-in extended permit udp any 24.222.33.96 255.255.255.240 object-group traceroute-udp 
+access-list internet-in remark Allow pings/traceroutes  to Internet DMZ
+access-list internet-in extended permit icmp any 24.222.33.96 255.255.255.240 object-group traceroute-icmp 
+access-list internet-in remark Allow DHCP access to test Incognito BCC instance on smpdev02
+access-list internet-in extended permit udp object-group internet-bcc-allowed object-group bcc-test-servers eq bootps 
+access-list internet-in remark Allow TOD access to test Incognito BCC instance on smpdev02
+access-list internet-in extended permit udp object-group internet-bcc-allowed object-group bcc-test-servers eq time 
+access-list internet-in remark Allow TFTP access to test Incognito BCC instance on smpdev02
+access-list internet-in extended permit udp object-group internet-bcc-allowed object-group bcc-test-servers eq tftp 
+access-list internet-in remark Allow DNS access to test Incognito BCC instance on smpdev02
+access-list internet-in extended permit udp object-group internet-bcc-allowed object-group bcc-test-servers eq domain 
+access-list internet-in remark Allow access to self-activation on test BCC instance
+access-list internet-in extended permit tcp object-group internet-bcc-allowed object-group bcc-test-servers eq www 
+access-list internet-in remark Allow DHCP, DNS, TFTP, TOD access to
+access-list internet-in remark TEST Incognito BCC instance on smpdev02
+access-list internet-in extended permit udp object-group internet-dhcp-allowed object-group bcc-test-servers object-group internet-modem-services 
+access-list internet-in remark Allow access to self-activation on TEST BCC instance
+access-list internet-in extended permit tcp object-group internet-dhcp-allowed object-group bcc-test-servers eq www 
+access-list internet-in remark Allow selected external hosts to connect to Eng LDAP servers
+access-list internet-in extended permit tcp object-group ldap-nis-clients object-group eng-ldap-servers-nat eq ldaps 
+access-list internet-in remark Allow selected external hosts to connect to Eng LDAP servers
+access-list internet-in extended permit tcp object-group ldap-nis-clients object-group eng-ldap-servers-nat eq ldap 
+access-list internet-in extended permit udp any interface inetdmz eq ntp 
+access-list internet-in extended permit icmp any interface inetdmz 
+access-list internet-in remark Allow TVG-VLS to connect through VPN
+access-list internet-in extended permit udp 144.198.0.0 255.255.0.0 host 24.222.33.110 eq isakmp 
+access-list internet-in extended permit udp 144.198.0.0 255.255.0.0 host 24.222.33.110 eq 4500 
+access-list internet-in extended permit udp 144.198.0.0 255.255.0.0 host 24.222.33.110 eq 8057 
+access-list internet-in extended permit tcp 144.198.0.0 255.255.0.0 host 24.222.33.110 eq 5000 
+access-list internet-in extended permit esp 144.198.0.0 255.255.0.0 host 24.222.33.110 
+access-list internet-in remark NSM Servers access from Internet
+access-list internet-in extended permit tcp any object-group NSM_Xpress_Public object-group NSM_Dev_Srv inactive 
+access-list internet-in remark Allow access required for TVN pitcher/catcher VOD distribution
+access-list internet-in extended permit tcp host 64.161.190.61 host 24.222.33.109 object-group tvn-vod-tcp 
+access-list internet-in extended permit ip host 64.161.190.61 host 24.222.33.109 log notifications 
+access-list internet-in extended permit udp host 64.161.190.61 host 24.222.33.109 object-group tvn-vod-udp 
+access-list internet-in extended permit ip any host 24.222.33.109 log notifications 
+access-list internet-in remark Allow selected Internet hosts to access Sonexis Conference Server
+access-list internet-in extended permit tcp object-group internet-sonexis-allowed host conf-server object-group sonexis-tcp-in 
+access-list internet-in remark TEMP
+access-list internet-in extended permit tcp any host 24.222.0.161 eq 58644 
+access-list internet-in remark Allow Amtelecom to access the Ellacoya Reporting and SCM server
+access-list internet-in extended permit ip 67.58.192.0 255.255.255.0 host nm5-new 
+access-list internet-in remark Allow John Rubinger direct access to desktop from home
+access-list internet-in extended permit tcp host 24.89.210.46 host 24.222.0.161 eq 3389 
+access-list internet-in remark Allow Delta Ellacoya to talk to SLE
+access-list internet-in extended permit ip host delta-nat host nm5-new 
+access-list internet-in remark Allow cable modems to access time of day service (RFC 868) on BCC servers
+access-list internet-in extended permit udp object-group private-netblocks object-group bcc-servers eq time 
+access-list internet-in remark Allow cable modems and EastLink subscribers to access DHCP on BCC servers
+access-list internet-in extended permit udp object-group internet-dhcp-allowed object-group bcc-servers eq bootps 
+access-list internet-in remark Allow cable modems to access TFTP on BCC servers
+access-list internet-in extended permit udp object-group private-netblocks object-group bcc-servers eq tftp 
+access-list internet-in remark Allow subscribers in "walled garden" access to HTTP on selfprov servers
+access-list internet-in extended permit tcp object-group private-netblocks object-group selfprov-servers eq www 
+access-list internet-in remark Allow subscribers in "walled garden" access to DNS on selfprov servers
+access-list internet-in extended permit udp object-group private-netblocks object-group selfprov-servers eq domain 
+access-list internet-in remark Permit Canopy APs to connect to PRIZM01 for auto-updates
+access-list internet-in extended permit tcp 10.5.0.0 255.255.0.0 host prizm01 eq 2501 
+access-list internet-in remark TEMP: RDP to ACD Server.  Sorce in the IP Space for the vendor.
+access-list internet-in extended permit tcp 151.101.0.0 255.255.0.0 host ACD_Server eq 3389 
+access-list internet-in remark All VistaCare https access to RT.
+access-list internet-in extended permit tcp 24.222.206.72 255.255.255.248 host tools-internet eq https 
+access-list internet-in extended permit icmp internet-servers 255.255.0.0 object-group NSM_Xpress_Public inactive 
+access-list internet-in remark Allow Astra's Pictch and Catch access to our drop box
+access-list internet-in extended permit tcp object-group Astral_Media host 24.222.33.101 eq 49221 
+access-list internet-in remark Allow Astra's Pictch and Catch access to our drop box
+access-list internet-in extended permit udp object-group Astral_Media host 24.222.33.101 eq 49221 
+access-list internet-in remark Allow Astra's Pictch and Catch access to our drop box
+access-list internet-in extended permit tcp host kjones-home host 24.222.33.101 eq 49221 
+access-list internet-in remark Allow syslog traffic to nat ip for log.eng.eastlink.ca
+access-list internet-in extended permit tcp internet-servers 255.255.255.0 host 24.222.0.88 eq 9997 inactive 
+access-list internet-in remark Allow internet servers to send syslog
+access-list internet-in extended permit udp any host 24.222.0.88 eq syslog inactive 
+access-list internet-in extended permit tcp 24.222.114.184 255.255.255.248 object-group auth1_auth2 eq ldap 
+access-list internet-in remark tftp config from lab to nm1
+access-list internet-in extended permit udp host 24.222.97.98 host nm1-internet eq tftp inactive 
+access-list internet-in remark Permit Internet routers and switches to access RADIUS servers
+access-list internet-in extended permit udp 24.137.100.0 255.255.255.0 object-group auth1_auth2 object-group radius-udp 
+access-list internet-in remark All new BRs to send data to SWEN3
+access-list internet-in extended permit udp 24.137.100.0 255.255.255.252 host swdata-internet eq 2055 
+access-list internet-in remark Permit Internet routers and switches to access LMS
+access-list internet-in extended permit tcp 24.137.100.0 255.255.255.0 host lms-internet eq ssh inactive 
+access-list guest-ellacoya remark Permit Ellacoya access to nm4 (Oracle server)
+access-list guest-ellacoya extended permit ip any host 172.22.1.13 
+access-list guest-ellacoya remark Permit Ellacoya access to nm5 (SLE server)
+access-list guest-ellacoya extended permit ip any host 172.22.1.14 
+access-list guest-ellacoya extended permit ip any host nm4-new 
+access-list guest-ellacoya extended permit ip any host nm5-new 
+access-list guest-ellacoya remark Allow ellacoya vpn users to query dns servers
+access-list guest-ellacoya extended permit udp any host nm2 eq domain 
+access-list guest-ellacoya remark Allow ellacoya vpn users to query dns servers
+access-list guest-ellacoya extended permit udp any host nm1 eq domain 
+access-list corp-in remark TEMP - Permit Rod Smith access to everything - Nessus scan for Oracle instances
+access-list corp-in extended permit ip host rod_smith any inactive 
+access-list corp-in remark Allow anything on corp network to send ICMP
+access-list corp-in extended permit icmp object-group corp-networks object-group netmgmt-networks 
+access-list corp-in remark Temp access for CIS to ftp to centos5.eng - Requested by Don Grant
+access-list corp-in extended permit tcp object-group corp-networks host 172.22.1.50 eq ftp 
+access-list corp-in remark Allow anything on corp network to send SNMP traps
+access-list corp-in extended permit udp object-group corp-networks object-group netmgmt-networks eq snmptrap 
+access-list corp-in remark Allow all corp users to access webapp01
+access-list corp-in extended permit tcp object-group corp-networks host 172.22.1.75 eq www 
+access-list corp-in remark Allow all corp users to access tmon
+access-list corp-in extended permit tcp object-group corp-networks object-group tmon_servers eq www 
+access-list corp-in remark Allow Paul Alcos   Elke Juckes Peter Lockwood 172.18.50.84 Katie Sutherland 172.18.50.91
+access-list corp-in remark access to RT as per Derrick Stennett
+access-list corp-in extended permit tcp object-group RT_allowed host 172.22.1.55 eq www 
+access-list corp-in remark Allow Martin Andrews mysql access for admin on his db.
+access-list corp-in extended permit tcp host 172.18.92.34 host 172.22.1.76 eq 3306 
+access-list corp-in remark Allow inbound traffic from the corporate server network
+access-list corp-in extended permit ip corp-servers 255.255.255.0 netmgmt-users 255.255.255.0 
+access-list corp-in remark Allow inbound traffic from the corporate server network to the eng-inoc vpn pool
+access-list corp-in extended permit ip corp-servers 255.255.255.0 172.22.3.0 255.255.255.0 
+access-list corp-in extended permit icmp corp-servers 255.255.255.0 172.22.3.0 255.255.255.0 object-group traceroute-icmp 
+access-list corp-in remark Allow inbound traffic from the corporate server network to the eng-other vpn pool
+access-list corp-in extended permit ip corp-servers 255.255.255.0 172.22.4.0 255.255.255.0 
+access-list corp-in extended permit icmp corp-servers 255.255.255.0 172.22.4.0 255.255.255.0 object-group traceroute-icmp 
+access-list corp-in remark Big Brother monitoring of DCN
+access-list corp-in extended permit tcp host dcnmon object-group bb-servers eq 1984 
+access-list corp-in extended permit ip host omnivu netmgmt-users 255.255.255.0 
+access-list corp-in remark Allow all corp users to access engineering web servers
+access-list corp-in extended permit tcp object-group corp-networks object-group eng-webservers object-group web-tcp 
+access-list corp-in remark Allow Advantage terminal server (corp dmz) to access engineering web servers
+access-list corp-in extended permit tcp object-group corp-dmz-networks object-group eng-webservers object-group web-tcp 
+access-list corp-in remark Allow all Corporate users to access Sigma SMP servers
+access-list corp-in extended permit ip object-group corp-networks object-group sigma-smp-servers 
+access-list corp-in remark Allow Advantage terminal server (corp dmz) to access Sigma SMP
+access-list corp-in extended permit tcp object-group corp-dmz-networks host smpweb object-group sigma-smp-tcp 
+access-list corp-in remark Allow Advantage terminal server (corp dmz) to access Delta ??? server
+access-list corp-in extended permit tcp object-group corp-dmz-networks object-group delta-servers eq www 
+access-list corp-in remark Allow all corp users to ssh to eng hosts
+access-list corp-in extended permit tcp object-group corp-networks object-group netmgmt-networks eq ssh 
+access-list corp-in remark Router/switch config backups
+access-list corp-in extended permit udp object-group corp-networks host rx8 eq tftp 
+access-list corp-in remark Permit corporate routers and switches to access RADIUS servers
+access-list corp-in extended permit udp object-group corp-networks object-group radius-servers-real object-group radius-udp 
+access-list corp-in remark Allow anyone on corporate network to query eng DNS servers
+access-list corp-in extended permit udp object-group corp-networks object-group eng-nameservers eq domain 
+access-list corp-in remark Permit corp nameservers to zone transfer from eng nameservers
+access-list corp-in extended permit tcp object-group corp-nameservers object-group eng-nameservers eq domain 
+access-list corp-in remark Allow corporate routers and switches access to NTP server on nm2
+access-list corp-in extended permit udp object-group corp-networks object-group eng-nameservers eq ntp 
+access-list corp-in remark Allow anyone on corporate network to access CSG
+access-list corp-in extended permit ip object-group corp-networks object-group csg-networks 
+access-list corp-in remark Allow anyone on corporate network to access CSG
+access-list corp-in extended permit ip object-group persona-central-networks object-group csg-networks 
+access-list corp-in remark Allow application servers in Sudbury access to BCC
+access-list corp-in extended permit ip 172.20.4.128 255.255.255.128 object-group bcc-servers 
+access-list corp-in remark Allow selected corp users to access the CS-LAN on each CS2000 Hybrid
+access-list corp-in extended permit ip object-group cslan-allowed object-group cslan 
+access-list corp-in remark Allow all corporate users to see the Incognito BCC servers
+access-list corp-in extended permit ip object-group corp-networks object-group bcc-servers 
+access-list corp-in remark Allow Telephone Operations to telnet to PacketCable CMTS
+access-list corp-in extended permit tcp object-group cslan-allowed object-group packetcable-cmts eq telnet 
+access-list corp-in extended permit tcp object-group cslan-allowed host voyeur eq ftp 
+access-list corp-in remark Allow selected corp users to access netcon01 (Nuera EMS)
+access-list corp-in extended permit tcp object-group cslan-allowed host netcon01 eq www 
+access-list corp-in extended permit tcp object-group cslan-allowed host voyeur eq ftp-data 
+access-list corp-in remark Allow selected telephone ops hosts to get to Metaswitch lab network
+access-list corp-in extended permit ip object-group metaswitch-lab-users metaswitch-lab-net 255.255.255.0 
+access-list corp-in remark Permit selected corp users to access Nortel CS2000 OSSGate
+access-list corp-in extended permit tcp object-group ossgate-allowed host yngtwrcmt object-group ossgate-tcp 
+access-list corp-in remark Allow selected corporate IP addresses full access to private LAN networks
+access-list corp-in extended permit ip object-group privlan-ip-allowed object-group privlan-networks 
+access-list corp-in remark Allow access to Federal Centrex MALCs
+access-list corp-in extended permit ip object-group privlan-ip-allowed 10.216.0.0 255.255.0.0 
+access-list corp-in remark All private LAN users on corp access to sbmon
+access-list corp-in extended permit tcp object-group privlan-ip-allowed host 172.22.1.72 eq www 
+access-list corp-in remark Allow selected corporate IP addresses HTTP-only access to private LAN networks
+access-list corp-in extended permit tcp object-group privlan-http-allowed object-group privlan-networks eq www 
+access-list corp-in extended permit ip 172.20.100.0 255.255.255.0 object-group privlan-networks 
+access-list corp-in remark Allow Business Intelligence SQL Server hfxdbsbis.corp.eastlink.ca access to mysql01.eng.eastlink.ca
+access-list corp-in extended permit tcp object-group mysql01_allowed host 172.22.1.76 eq 3306 
+access-list corp-in remark Permit anyone on corporate network to access web console on eMTAs
+access-list corp-in extended permit tcp object-group corp-networks object-group packetcable-emtas eq www 
+access-list corp-in remark Permit anyone on corporate network to access telnet console on eMTAs
+access-list corp-in extended permit tcp object-group corp-networks object-group packetcable-emtas eq telnet 
+access-list corp-in remark Arris Web Console (MTAs) in Delta BC - Should be smaller network than all of corporate
+access-list corp-in extended permit tcp object-group corp-networks 10.77.0.0 255.255.240.0 eq www 
+access-list corp-in remark Arris Web Console (MTAs) in Delta BC - Should be smaller network than all of corporate
+access-list corp-in extended permit tcp object-group corp-networks 10.77.0.0 255.255.240.0 eq telnet 
+access-list corp-in remark Allow all corp users to access Kenan Data Mediation servers
+access-list corp-in extended permit tcp object-group corp-networks object-group data-mediation-servers object-group data-mediation-tcp 
+access-list corp-in extended permit tcp object-group corp-networks host dct-ts01 eq telnet 
+access-list corp-in remark Allow corporate users access to ping devices in remote head ends
+access-list corp-in extended permit ip object-group corp-networks object-group dcn-remote-headends 
+access-list corp-in remark Allow corporate users web access to power supply status monitoring server
+access-list corp-in extended permit tcp object-group corp-networks host psmon1 eq www 
+access-list corp-in extended permit tcp object-group corp-networks host psmon2 eq www 
+access-list corp-in remark Allow corporate network to access Sonexis conference bridge
+access-list corp-in extended permit tcp object-group corp-networks host 172.22.22.8 object-group sonexis-tcp-in 
+access-list corp-in remark Allow corporate network to access Sonexis conference bridge
+access-list corp-in extended permit tcp object-group corp-networks host conf-server object-group sonexis-tcp-in 
+access-list corp-in remark Allow Garth Sweet to access FTP on red hat server to download YAK CDRs
+access-list corp-in extended permit tcp host jim_cyr_pc host 192.168.129.253 eq ftp 
+access-list corp-in remark Allow hlfxvmsgus to access FTP on red hat server to download YAK CDRs
+access-list corp-in extended permit tcp host 172.18.101.86 host 192.168.129.253 eq ftp 
+access-list corp-in remark Allow access to the business.eastlink.ca web site
+access-list corp-in extended permit tcp object-group corp-networks host cg-internet object-group web-tcp 
+access-list corp-in remark Allow corporate network to access persona networks (note tunnel ACL controls access)
+access-list corp-in extended permit ip object-group corp-networks object-group persona-networks 
+access-list corp-in remark Allow corporate network to access Amtelecom networks
+access-list corp-in extended permit ip object-group corp-networks object-group amtelecom-networks 
+access-list corp-in remark Allow HLFX-NSM1 connect to the Clients
+access-list corp-in extended permit tcp 172.18.0.0 255.255.0.0 host NSM_Server eq ssh 
+access-list corp-in extended permit tcp 172.18.0.0 255.255.0.0 host NSM_Server range 7800 7803 
+access-list corp-in remark TEMPORARY: Allow NOC PC to go anywhere
+access-list corp-in extended permit ip host 172.18.82.24 any 
+access-list corp-in remark TEMPORARY: Allow NOC PC to go anywhere
+access-list corp-in extended permit ip host 172.18.82.26 any 
+access-list corp-in remark NOC PC getting access to ENG
+access-list corp-in extended permit ip host 172.18.82.27 any 
+access-list corp-in remark Voyeur on CORP access to Eng Network
+access-list corp-in extended permit ip host 172.18.101.100 any 
+access-list corp-in extended permit icmp host 172.18.101.100 any 
+access-list corp-in remark TEMPORARILY ALLOW PAUL SHERWOOD FULL ACCESS TO SWDB
+access-list corp-in extended permit ip host 172.18.68.12 host 172.22.1.19 
+access-list corp-in remark Allow ITS to push changes to desktop computers
+access-list corp-in extended permit tcp any netmgmt-users 255.255.255.0 eq 8888 
+access-list corp-in remark Allow Cacti server to reach the prizm server.
+access-list corp-in extended permit tcp host Wireless_Cacti host prizm01 eq 5432 
+access-list corp-in remark TEMP: Allow full access to Prizm server from Corporate LAN
+access-list corp-in extended permit ip any host prizm01 
+access-list corp-in remark Allow access to FTP server on John Rubinger's workstation
+access-list corp-in extended permit tcp any host jrubinger-desktop eq ftp 
+access-list corp-in remark ILOM access from corporate to Prism
+access-list corp-in extended permit ip any host 172.22.1.43 
+access-list corp-in remark Permit corp users to access mysql database on tools (Don Grant access to RT3 database)
+access-list corp-in extended permit tcp object-group corp-networks host tools eq 3306 
+access-list corp-in remark Allow corp to use phoenix development port
+access-list corp-in extended permit tcp object-group corp-networks host tools eq 3001 
+access-list corp-in remark Access to ACD server
+access-list corp-in extended permit tcp object-group corp-networks host ACD_Server range 5000 5010 
+access-list corp-in remark TEMP for RDP to ACD server for training.
+access-list corp-in extended permit tcp object-group corp-networks host ACD_Server eq 3389 
+access-list corp-in remark TEMP Access to ACD server for training.
+access-list corp-in extended permit icmp object-group corp-networks host ACD_Server 
+access-list corp-in extended permit ip object-group corp-networks object-group eastlink-nfld-networks 
+access-list corp-in extended permit ip object-group persona-networks object-group eastlink-nfld-networks 
+access-list corp-in extended permit ip object-group persona-networks 172.22.0.0 255.255.0.0 
+access-list corp-in extended permit ip object-group persona-networks host 10.192.9.20 
+access-list corp-in remark Persona access to Private LAN
+access-list corp-in extended permit ip object-group persona-networks object-group privlan-networks 
+access-list corp-in extended permit ip object-group persona-networks 10.218.0.0 255.255.0.0 
+access-list corp-in extended permit ip object-group persona-networks object-group corp-networks 
+access-list corp-in extended permit ip object-group persona-networks 24.222.33.96 255.255.255.240 
+access-list corp-in remark Amtelecom access to Engineering
+access-list corp-in extended permit ip object-group amtelecom-networks object-group netmgmt-networks 
+access-list corp-in remark Amtelecom access to Provate LAN
+access-list corp-in extended permit ip object-group amtelecom-networks object-group privlan-networks 
+access-list corp-in remark Bluewater access to Engineering
+access-list corp-in extended permit ip object-group bluewater-networks object-group netmgmt-networks 
+access-list corp-in extended permit icmp any object-group netmgmt-networks object-group traceroute-icmp 
+access-list corp-in extended permit udp any object-group netmgmt-networks object-group traceroute-udp 
+access-list corp-in remark Allow 10.64.0.0/24 Persona Central to connect to Ellacoya SLE
+access-list corp-in extended permit ip 10.64.0.0 255.255.255.0 host nm5-new 
+access-list corp-in remark Allow access to NSM server - strict rules on Hfx ssg550
+access-list corp-in extended permit ip 10.64.4.0 255.255.255.0 host 10.192.2.4 log notifications 
+access-list corp-in extended permit ip object-group persona-networks 10.202.128.0 255.255.252.0 
+access-list corp-in extended permit ip object-group persona-networks 192.168.237.0 255.255.255.0 
+access-list corp-in remark Allow Jim Bower access to the Western Media Gateways.
+access-list corp-in extended permit tcp host pc-jim-bower 172.16.6.0 255.255.255.0 
+access-list corp-in remark Policy for e30s to reach SLE using MPLS connection through corporate.
+access-list corp-in extended permit tcp object-group Ellacoya_e30_Ontario object-group ellacoya-sle-servers object-group ellacoya-tcp-inbound 
+access-list corp-in remark Policy for e30s to reach SLE using MPLS connection through corporate.
+access-list corp-in extended permit icmp object-group Ellacoya_e30_Ontario object-group ellacoya-sle-servers 
+access-list corp-in remark Allow selected corporate users to access tmon servers
+access-list corp-in extended permit tcp object-group corp-tmon-allowed object-group tmon_servers eq www 
+access-list corp-in extended permit tcp host 172.18.94.37 10.10.12.0 255.255.255.0 eq https 
+access-list corp-in remark Bari-pcr to Ciscoworks
+access-list corp-in extended permit udp object-group Bari-PCRs host lms object-group MNS_Mgt 
+access-list corp-in extended permit udp object-group Bari-PCRs host auth1 object-group radius-udp 
+access-list corp-in extended permit udp object-group Bari-PCRs host auth2 object-group radius-udp 
+access-list corp-in extended permit tcp object-group Bari-PCRs host auth1 eq tacacs 
+access-list corp-in extended permit tcp object-group Bari-PCRs host auth2 eq tacacs 
+access-list corp-in remark Allow Corp SSL VPN to hit web portal on MPathix
+access-list corp-in extended permit tcp object-group corp_vpn object-group Mpathix-web eq www 
+access-list corp-in remark Allow anything on the corporate to reach the mobility network
+access-list corp-in extended permit ip object-group corp-networks 10.232.0.0 255.248.0.0 
+access-list corp-in extended permit udp 172.20.23.128 255.255.255.128 host auth1 object-group radius-udp 
+access-list corp-in extended permit udp 172.20.23.128 255.255.255.128 host auth2 object-group radius-udp 
+access-list corp-in remark TEMP allow corp access to the acd mgt network
+access-list corp-in extended permit ip object-group corp-networks 10.192.8.0 255.255.255.248 
+access-list corp-in remark Allow corp to reach new network for Telco Redhat Server
+access-list corp-in extended permit ip object-group corp-networks 10.192.8.192 255.255.255.248 
+access-list corp-in remark Alow Jim Cyr laptop and hfxvmsgus utility server  ftp to telco redhat.
+access-list corp-in extended permit tcp object-group telco_redhat_ftp_allowed host 10.192.8.194 eq ftp 
+access-list corp-in remark Access to the aspera server controlled ont he ssg550
+access-list corp-in extended permit tcp any host 10.192.8.18 
+access-list corp-in remark Allow NetGuardian in Bayers Lake to send traps to tmon1 and tmon2
+access-list corp-in extended permit udp object-group Netguardians object-group tmon_servers object-group snmp_snmptrap 
+access-list corp-in remark Allow Jason Russell access to Aurora Shelves.
+access-list corp-in extended permit ip host 172.18.110.27 10.202.64.0 255.255.255.0 
+access-list corp-in remark Allow David Craig access to noc-wiki
+access-list corp-in extended permit tcp host 172.18.75.164 host 172.22.1.72 object-group http_https 
+access-list corp-in remark Allow Paul Sherwood acces to nm4-new.
+access-list corp-in extended permit tcp host 172.18.68.36 host nm4-new object-group oracle_ssh 
+access-list corp-in extended permit ip object-group Telco-ops host 172.16.5.244 
+access-list corp-in extended permit ip object-group corp-networks host 10.192.9.2 
+access-list corp-in remark Allow Paul Gill access to the VM Mgt Server
+access-list corp-in extended permit ip object-group Telco-ops host 10.192.1.133 
+access-list corp-in remark Allow Paul Gill access to the ESXi host the Telco Redhat server is installed on
+access-list corp-in extended permit tcp object-group Telco-ops host 10.192.1.11 eq 902 
+access-list corp-in remark Allow Telco Ops to reach western netguardians - tight controls on ssg550
+access-list corp-in extended permit ip object-group Telco-ops object-group Western_NetGuardian 
+access-list corp-in remark Allow Telco Ops to reach Mpathix web server - tight controls on ssg550
+access-list corp-in extended permit ip object-group Telco-ops 10.192.8.64 255.255.255.240 
+access-list corp-in remark Telephone Operations Access to hfx MG3200
+access-list corp-in extended permit tcp 172.18.75.128 255.255.255.192 10.207.254.16 255.255.255.240 eq www 
+access-list corp-in remark Telephone Operations Access to hfx MG3200
+access-list corp-in extended permit icmp 172.18.75.128 255.255.255.192 10.207.254.16 255.255.255.240 
+access-list corp-in remark Allow Corp users web access to hlfxces.
+access-list corp-in extended permit tcp object-group corp-networks host 172.22.1.63 eq www 
+access-list corp-in remark Allow Rod Smith to access Nessus scanner on nm1
+access-list corp-in extended permit tcp host rod_smith host nm1 eq 8834 
+access-list corp-in remark sdby-DAC to hlfx-cpms
+access-list corp-in extended permit ip host 172.27.1.10 host 10.192.9.2 
+access-list corp-in remark AB-CALG-7206VXR-001
+access-list corp-in extended permit tcp host 10.254.34.1 object-group auth1_auth2 eq tacacs 
+access-list corp-in remark AB-CALG-7206VXR-001
+access-list corp-in extended permit udp host 10.254.34.1 object-group auth1_auth2 object-group radius-udp 
+access-list corp-in extended permit tcp object-group corp-networks host hlfxwapp01 eq 8080 
+access-list corp-in extended permit ip 172.18.26.0 255.255.255.0 10.192.2.128 255.255.255.224 
+access-list corp-in remark TEMP - Remove after 15 September 2010
+access-list corp-in extended permit ip 172.18.75.0 255.255.255.0 10.232.0.96 255.255.255.224 
+access-list corp-in remark TEMP - Remove after 15 September 2010
+access-list corp-in extended permit ip 172.18.75.0 255.255.255.0 10.232.4.96 255.255.255.224 
+access-list corp-in remark allow corp users to access webapp02
+access-list corp-in extended permit tcp object-group corp-networks host 172.22.1.80 eq www 
+access-list corp-in extended permit tcp object-group Corp_VPN_IT_Devel host 172.22.1.210 object-group oracle_ssh 
+access-list corp-in extended permit tcp object-group Corp_VPN_IT_Devel host 10.192.8.136 object-group oracle_ssh 
+access-list corp-in extended permit tcp object-group Corp_Reporting host 172.22.1.210 eq sqlnet 
+access-list corp-in extended permit tcp host 172.18.92.34 host 172.22.1.75 eq 3306 
+access-list corp-in remark Allow Martin Andrews to ssh to webapp01 to admin twist application
+access-list corp-in extended permit tcp host 172.18.92.34 host 172.22.1.75 eq ssh 
+access-list corp-in remark All the outage board server to reach RT
+access-list corp-in extended permit tcp object-group Outage_Board host 10.192.8.131 eq 3306 
+access-list corp-in remark Generous rule to allow devices out west to reach tacacs.  Tight controls on ssg550
+access-list corp-in extended permit tcp object-group tacacs_allowed host 10.192.8.130 eq tacacs 
+access-list corp-in extended permit udp object-group opengear host nm2 eq radius 
+access-list corp-in remark Delta network Operations Team
+access-list corp-in extended permit ip object-group delta-net-ops any 
+access-list corp-in remark Allow Delta Hobbit server to talk to Halifax Hobbit server
+access-list corp-in extended permit ip host delta-hobbit host tools 
+access-list corp-in remark Video access to ADS Servers
+access-list corp-in extended permit ip object-group Telco-ops 10.192.8.112 255.255.255.248 
+access-list corp-in remark Central OPS access to RT
+access-list corp-in extended permit ip 172.20.10.0 255.255.255.192 host 10.192.8.131 
+access-list corp-in remark Corp access to RT
+access-list corp-in extended permit tcp object-group corp-networks host 10.192.8.131 eq https 
+access-list corp-in remark Corp access to RTalt
+access-list corp-in extended permit tcp object-group corp-networks host rt-new object-group http_https 
+access-list corp-in remark Allow transport nodes to reach eng DNS
+access-list corp-in extended permit udp 10.64.1.0 255.255.255.0 object-group nm1-nm2 eq domain 
+access-list corp-in remark Allow transport nodes to reach eng DNS
+access-list corp-in extended permit udp 10.64.1.0 255.255.255.0 host 172.22.1.73 eq ntp 
+access-list corp-in remark Allow EL Wireless static IPs access to their gear.  Specifc rules defined on SSG550
+access-list corp-in extended permit ip 172.18.92.128 255.255.255.192 10.232.0.0 255.255.224.0 
+access-list corp-in remark Allow EL Wireless VPN appliance 1 access to their gear.  Specifc rules defined on SSG550
+access-list corp-in extended permit ip 172.18.118.192 255.255.255.224 10.232.0.0 255.255.224.0 
+access-list corp-in remark Allow EL Wireless VPN appliance 1 access to their gear.  Specifc rules defined on SSG550
+access-list corp-in extended permit ip 172.18.119.192 255.255.255.224 10.232.0.0 255.255.224.0 
+access-list corp-in remark Allow Chris Moors access to mysql01
+access-list corp-in extended permit tcp host 172.18.80.40 host 172.22.1.76 eq 3306 
+access-list corp-in remark Allow Shane Whittaker access the PCC in Grand Prairie
+access-list corp-in extended permit tcp host 192.168.1.6 object-group WesternDevices eq ssh 
+access-list corp-in remark Allow Shane Whittaker access the PCC in Grand Prairie
+access-list corp-in extended permit icmp host 192.168.1.6 object-group WesternDevices 
+access-list corp-in remark Allow Shane Whittaker access to Ciscoworks
+access-list corp-in extended permit tcp host 192.168.1.207 host 10.192.9.20 object-group http_https 
+access-list corp-in extended permit ip host 172.18.92.140 10.202.252.0 255.255.255.0 
+access-list corp-in remark Allow Shawn Lewis access to the Seachange Asset flow servers.
+access-list corp-in extended permit ip host 172.18.75.146 object-group VOD_AssetFlow 
+access-list corp-in remark Allow Craig Carroll access to blby-slb01
+access-list corp-in extended permit ip host 172.18.68.11 host 10.192.2.12 
+access-list corp-in remark allow Craig Carroll access to ytwr-slb01
+access-list corp-in extended permit ip host 172.18.68.11 host 10.192.2.11 
+access-list guest-cisco remark Permit Cisco access to DWDM network
+access-list guest-cisco extended permit ip any 10.202.0.0 255.255.0.0 
+access-list guest-cisco remark TEMP - Allow Cisco to access terminal server for console access to hlfx-p1
+access-list guest-cisco extended permit ip any host 172.22.1.249 
+access-list guest-cisco remark TEMP - Allow Cisco to access console on HLFX-P2
+access-list guest-cisco extended permit ip any host 172.18.44.248 
+access-list eng-nonat extended permit ip any object-group corp-networks 
+access-list eng-nonat extended permit ip any object-group corp-dmz-networks 
+access-list eng-nonat extended permit ip any object-group devprov-networks 
+access-list eng-nonat extended permit ip any object-group packetcable-networks 
+access-list eng-nonat extended permit ip any object-group vpn-address-pools 
+access-list eng-nonat extended permit ip any 24.222.33.96 255.255.255.240 
+access-list eng-nonat extended permit ip any object-group persona-central-networks 
+access-list eng-nonat extended permit ip any object-group persona-delta-networks 
+access-list eng-nonat remark Do not translate when going to Managed Network Customers (mns - CITO, Medavie, etc)
+access-list eng-nonat extended permit ip any 10.221.0.0 255.255.0.0 
+access-list eng-nonat remark Allow Bluewater access to Engineering
+access-list eng-nonat extended permit ip any object-group bluewater-networks 
+access-list eng-nonat remark Allow Amtelecom to access Engineering
+access-list eng-nonat extended permit ip any object-group amtelecom-networks 
+access-list eng-nonat extended permit ip any host ACD_Server 
+access-list eng-nonat extended permit ip any 172.22.254.32 255.255.255.252 
+access-list eng-nonat extended permit ip any object-group eng-central-networks 
+access-list eng-nonat extended permit ip any object-group eastlink-nfld-networks 
+access-list eng-nonat extended permit ip any object-group cdli-networks 
+access-list eng-nonat extended permit ip any grande-prairie-network 255.255.255.0 
+access-list eng-nonat extended permit ip any host 10.1.141.10 
+access-list eng-nonat remark Do not NAT to Delta Seachange
+access-list eng-nonat extended permit ip any 10.223.47.0 255.255.255.0 
+access-list eng-nonat remark Delta Packet Cable Modem pool
+access-list eng-nonat extended permit ip any 10.77.0.0 255.255.240.0 
+access-list eng-nonat remark Delta Packet Cable MTA pool
+access-list eng-nonat extended permit ip any 10.77.16.0 255.255.240.0 
+access-list eng-nonat remark person-western Alberta ONS
+access-list eng-nonat extended permit ip any 172.21.2.0 255.255.255.0 
+access-list eng-nonat extended permit ip any 10.114.0.0 255.255.0.0 
+access-list eng-nonat remark Western ONS mgt
+access-list eng-nonat extended permit ip any 172.21.3.0 255.255.255.0 
+access-list eng-nonat extended permit ip any 10.192.16.0 255.255.255.192 
+access-list eng-nonat extended permit ip any 10.77.32.0 255.255.240.0 
+access-list eng-nonat extended permit ip any 10.77.48.0 255.255.240.0 
+access-list eng-nonat extended permit ip any metaswitch-lab-net 255.255.255.0 
+access-list eng-nonat extended permit ip any 10.195.0.0 255.255.240.0 
+access-list eng-nonat extended permit ip any 10.195.16.0 255.255.240.0 
+access-list eng-nonat extended permit ip any 10.195.32.0 255.255.240.0 
+access-list eng-nonat extended permit ip any 10.195.48.0 255.255.240.0 
+access-list eng-nonat remark Alymer
+access-list eng-nonat extended permit ip any 10.53.0.0 255.255.0.0 
+access-list corp-nonat extended permit ip any object-group packetcable-networks 
+access-list corp-nonat extended permit ip any object-group devprov-networks 
+access-list corp-nonat extended permit ip any object-group vpn-address-pools 
+access-list corp-nonat extended permit ip any 24.222.33.96 255.255.255.240 
+access-list corp-nonat extended permit ip any object-group bcc-servers 
+access-list corp-nonat remark Persona Western access to Corporate
+access-list corp-nonat extended permit ip any object-group persona-western-networks 
+access-list corp-nonat extended permit ip any object-group persona-delta-networks 
+access-list corp-nonat remark Allow Bluewater access to Corporate
+access-list corp-nonat extended permit ip any object-group bluewater-networks 
+access-list corp-nonat extended permit ip any host conf-server 
+access-list corp-nonat extended permit ip any host ACD_Server 
+access-list corp-nonat extended permit ip object-group persona-networks object-group eastlink-nfld-networks 
+access-list corp-nonat extended permit ip any object-group netmgmt-networks 
+access-list corp-nonat remark Allow Amtelecom access to Corp
+access-list corp-nonat extended permit ip any object-group amtelecom-networks 
+access-list corp-nonat extended permit ip any 10.192.0.0 255.255.240.0 
+access-list corp-nonat extended permit ip any metaswitch-lab-net 255.255.255.0 
+access-list corp-nonat extended permit ip any object-group privlan-networks 
+access-list internet-nonat extended permit ip any object-group vpn-address-pools 
+access-list guest-seachange remark Permit Seachange access to VOD server-to-server network
+access-list guest-seachange extended permit ip any vod-ss-net 255.255.255.0 
+access-list guest-seachange remark Allow Seachange to reach add inserters
+access-list guest-seachange extended permit ip any host 10.100.240.3 
+access-list guest-seachange remark Allow Seachange to reach add inserters
+access-list guest-seachange extended permit ip any host 10.100.240.4 
+access-list guest-seachange remark Permit Seachange access to VOD servers in Delta
+access-list guest-seachange extended permit ip any 10.223.1.0 255.255.255.0 
+access-list guest-seachange remark Permit Seachange access to VOD servers in Barrie
+access-list guest-seachange extended permit ip any 10.21.1.0 255.255.255.0 
+access-list guest-seachange remark Allow Seachange access to DCMN
+access-list guest-seachange extended permit ip any object-group DCMN 
+access-list guest-seachange remark Allow Seachange users access to DNS
+access-list guest-seachange extended permit udp any object-group eng-nameservers eq domain 
+access-list guest-seachange extended permit ip any 10.192.8.112 255.255.255.248 
+access-list guest-seachange extended permit udp any any object-group traceroute-udp 
+access-list guest-seachange extended permit icmp any any object-group traceroute-icmp 
+access-list guest-sigma remark Permit Sigma Systems access to SMP servers
+access-list guest-sigma extended permit ip any object-group sigma-smp-servers 
+access-list guest-sigma extended permit udp any object-group eng-nameservers eq domain 
+access-list guest-sigma extended permit ip any host 192.168.129.160 
+access-list guest-sigma remark Allow access to OSSgate no Cole Harbour switch
+access-list guest-sigma extended permit tcp any host 10.207.4.135 eq 10023 
+access-list packetcable-in remark Allow anything on the CS-LAN to go anywhere
+access-list packetcable-in extended permit ip object-group cslan any 
+access-list packetcable-in remark Allow PacketCable DNS servers to query any DNS server
+access-list packetcable-in extended permit udp object-group packetcable-nameservers any eq domain 
+access-list packetcable-in remark Allow PacketCable DNS servers to zone transfer from Eng DNS servers
+access-list packetcable-in extended permit tcp object-group packetcable-nameservers object-group eng-nameservers eq domain 
+access-list packetcable-in remark Allow PacketCable DNS servers to query Eng LDAP servers for authentication
+access-list packetcable-in extended permit tcp object-group packetcable-nameservers object-group eng-ldapservers eq ldap 
+access-list packetcable-in remark Allow PacketCable DNS servers to query any NTP server
+access-list packetcable-in extended permit udp object-group packetcable-nameservers any eq ntp 
+access-list packetcable-in remark Allow hobbit connections from PacketCable name servers
+access-list packetcable-in extended permit tcp object-group packetcable-nameservers host tools eq 1984 
+access-list packetcable-in extended permit icmp 172.22.254.32 255.255.255.252 172.22.0.0 255.255.248.0 echo-reply 
+access-list packetcable-in remark Allow PacketCable DNS servers to send cns info to Sun
+access-list packetcable-in extended permit tcp object-group packetcable-nameservers host 198.232.168.137 eq https inactive 
+access-list packetcable-in extended permit udp object-group packetcable-nameservers object-group netmgmt-servers eq snmptrap 
+access-list packetcable-in extended permit udp object-group packetcable-cmts object-group netmgmt-servers eq snmptrap 
+access-list packetcable-in extended permit udp object-group packetcable-cmts object-group netmgmt-servers eq syslog 
+access-list packetcable-in extended permit udp object-group packetcable-cmts object-group radius-servers-real object-group radius-udp 
+access-list packetcable-in extended permit udp object-group packetcable-networks object-group bcc-servers eq time 
+access-list packetcable-in extended permit udp object-group packetcable-emtas object-group bcc-servers eq bootps 
+access-list packetcable-in extended permit udp object-group packetcable-emtas object-group bcc-servers eq tftp 
+access-list packetcable-in extended permit udp object-group packetcable-emtas object-group bcc-servers eq 88 
+access-list packetcable-in extended permit udp object-group packetcable-emtas object-group bcc-servers eq snmptrap 
+access-list packetcable-in remark Allow eMTAs to connect to BCC DNS servers (only needed for Lab environment)
+access-list packetcable-in extended permit udp object-group packetcable-emtas object-group bcc-servers eq domain 
+access-list packetcable-in extended permit udp object-group packetcable-emtas object-group netmgmt-servers eq snmptrap 
+access-list packetcable-in remark Allow eMTAs to send syslog info to BCC servers
+access-list packetcable-in extended permit udp object-group packetcable-emtas object-group packetcable-log-servers eq syslog 
+access-list packetcable-in remark Allow PKINIT from eMTAs to Kerberos servers
+access-list packetcable-in extended permit udp object-group packetcable-emtas object-group bcc-servers eq 1293 
+access-list packetcable-in remark Allow HLFX-PCC2 MTAs to speak MGCP/NCS to Barrie CS2K gateway controllers
+access-list packetcable-in extended permit udp object-group hlfx-pcc2-mtas object-group cs2k-barrie-gwc object-group MGCP 
+access-list packetcable-in remark Allow HLFX-PCC2 MTAs to speak RTP to Barrie CS2K IW-SPMs (PSTN GW)
+access-list packetcable-in extended permit udp object-group hlfx-pcc2-mtas object-group cs2k-barrie-iwspm gt 1023 
+access-list packetcable-in remark Allow HLFX-PCC2 MTAs to speak RTP to Barrie CS2K media servers
+access-list packetcable-in extended permit udp object-group hlfx-pcc2-mtas object-group cs2k-barrie-ms2010 gt 1023 
+access-list packetcable-in remark Allow PacketCable routers to copy config backups to RX8
+access-list packetcable-in extended permit udp object-group packetcable-routers host rx8 eq tftp 
+access-list packetcable-in remark Allow UDP initiated traceroutes
+access-list packetcable-in extended permit udp any any object-group traceroute-udp 
+access-list packetcable-in extended permit icmp any any 
+access-list packetcable-in remark EXPERIMENT: alllow all hosts to send SNMP replies to SW
+access-list packetcable-in extended permit udp any eq snmp host 172.22.1.24 
+access-list packetcable-in extended permit ospf any any 
+access-list packetcable-in remark SecurID Authentication
+access-list packetcable-in extended permit udp object-group packetcable-routers netmgmt-servers 255.255.255.0 object-group radius-udp 
+access-list packetcable-in remark To SNMP server
+access-list packetcable-in extended permit udp object-group packetcable-routers netmgmt-servers 255.255.255.0 eq snmptrap 
+access-list packetcable-in remark Syslog
+access-list packetcable-in extended permit udp object-group packetcable-routers netmgmt-servers 255.255.255.0 eq syslog 
+access-list packetcable-in remark AllowBTX 4K to access netconf
+access-list packetcable-in extended permit ip object-group btx host netcon01 
+access-list packetcable-in remark Allow HLFX BTX 4K to send syslog messages to Telco RedHat Server
+access-list packetcable-in extended permit udp object-group btx host 10.192.8.194 eq syslog 
+access-list packetcable-in remark Allow HLFX BTX 4K to send snmptraps to Telco RedHat Server
+access-list packetcable-in extended permit udp object-group btx host 10.192.8.194 eq snmptrap 
+access-list packetcable-in remark Allow HLFX BTX 4K to send snmptraps to TMON
+access-list packetcable-in extended permit udp object-group btx object-group tmon_servers eq snmptrap 
+access-list packetcable-in remark All PacketCable C4 to reach tacacs server.
+access-list packetcable-in extended permit tcp 10.207.255.0 255.255.255.0 host 10.192.8.130 eq tacacs 
+access-list packetcable-in remark CBM Servers to netops01 - restrictive rule on SSG550
+access-list packetcable-in extended permit ip object-group cslan host 10.192.8.195 
+access-list packetcable-nonat extended permit ip any object-group vpn-address-pools 
+access-list devprov-in extended permit ip object-group bcc-servers object-group packetcable-emtas 
+access-list devprov-in extended permit ip object-group bcc-servers object-group packetcable-cmts 
+access-list devprov-in remark Allow DDNS updates from BCC (DHCP) to PacketCable DNS servers
+access-list devprov-in extended permit udp object-group bcc-servers object-group packetcable-nameservers eq domain 
+access-list devprov-in remark Allow BCC servers to send Big Brother updates
+access-list devprov-in extended permit tcp object-group bcc-servers object-group bb-servers eq 1984 
+access-list devprov-in extended permit udp object-group bcc-servers object-group netmgmt-servers eq snmptrap 
+access-list devprov-in remark Allow BCC servers to forward syslog info to Solarwinds Polling Engine
+access-list devprov-in extended permit udp object-group bcc-servers object-group Solarwinds-Servers eq syslog 
+access-list devprov-in remark Allow BCC servers to push audit logs to tools via SSH/SCP
+access-list devprov-in extended permit tcp object-group bcc-servers host tools eq ssh 
+access-list devprov-in remark Allow BCC servers to send mail through corp exchange server
+access-list devprov-in extended permit tcp object-group bcc-servers object-group corp-mailservers eq smtp 
+access-list devprov-in remark Permit BCC servers IMS Proxy Service to talk to Address Commander server
+access-list devprov-in extended permit tcp object-group bcc-servers host 172.22.1.59 range 9900 9995 
+access-list devprov-in remark Allow BCC servers to connect to RR LDAP server
+access-list devprov-in extended permit ip object-group bcc-servers host 216.104.96.130 
+access-list devprov-in remark Allow BCC servers to connect to NRC
+access-list devprov-in extended permit tcp object-group bcc-servers host 172.22.1.83 eq 9995 
+access-list devprov-in remark Allow BCC servers to connect to NRC
+access-list devprov-in extended permit tcp object-group bcc-servers host 172.22.1.83 eq 9993 
+access-list devprov-in remark Allow selfprov servers to talk to Weblogic on Sigma Phase 2 SMP App servers
+access-list devprov-in extended permit tcp object-group selfprov-servers object-group sigma-p2-appservers eq 42801 inactive 
+access-list devprov-in extended permit udp object-group devprov-networks object-group eng-nameservers eq domain 
+access-list devprov-in remark Allow hosts on the device provisioning DMZ to access LDAP on the Engineering LDAP servers
+access-list devprov-in extended permit tcp object-group devprov-networks object-group eng-ldapservers eq ldap 
+access-list devprov-in remark Allow ENG-DMZ1 and ENG-DMZ2 to access RADIUS servers
+access-list devprov-in extended permit udp object-group devprov-networks object-group radius-servers-real object-group radius-udp 
+access-list devprov-in extended permit udp object-group devprov-networks any eq ntp 
+access-list devprov-in remark Allow device provisioning servers to use the web proxy on rx8
+access-list devprov-in extended permit tcp object-group devprov-networks host rx8 eq 8080 
+access-list devprov-in remark Allow ENG-DMZ switches to copy config backups to RX8
+access-list devprov-in extended permit udp object-group devprov-networks host rx8 eq tftp 
+access-list devprov-in extended permit icmp object-group devprov-networks any object-group traceroute-icmp 
+access-list devprov-in extended permit udp object-group devprov-networks any object-group traceroute-udp 
+access-list devprov-in remark Allow Sonexis conference bridge to send SMTP to corporate mail server
+access-list devprov-in extended permit tcp host 172.22.22.8 corp-servers 255.255.255.0 object-group sonexis-tcp-out 
+access-list devprov-in remark Allow selfprov02 to access subversion repository on tools
+access-list devprov-in extended permit tcp host 172.22.22.10 host tools eq 3690 
+access-list devprov-in remark Allow conf server to access Persona
+access-list devprov-in extended permit tcp host 172.22.22.8 object-group persona-central-networks object-group sonexis-tcp-out 
+access-list devprov-in remark Deny access to all other private networks
+access-list devprov-in extended deny ip object-group devprov-networks object-group private-netblocks 
+access-list devprov-in extended permit ip object-group devprov-networks any 
+access-list devprov-nonat remark Don't translate when going to any EastLink public address
+access-list devprov-nonat extended permit ip any object-group eastlink-public-netblocks 
+access-list devprov-nonat remark Don't translate when going anywhere in RFC 1918 private address space
+access-list devprov-nonat extended permit ip any object-group private-netblocks 
+access-list guest-comverse remark Allow Comverse users to access Kenan Data Mediation servers
+access-list guest-comverse extended permit ip any object-group data-mediation-servers 
+access-list guest-comverse remark Allow Comverse users to query Eng DNS servers
+access-list guest-comverse extended permit udp any object-group eng-nameservers eq domain 
+access-list guest-arris remark Permit Arris to access PacketCable CMTS
+access-list guest-arris extended permit ip any object-group packetcable-cmts 
+access-list guest-arris remark Permit Arris to use dns to manage PacketCable CMTS
+access-list guest-arris extended permit udp any object-group eng-nameservers eq domain 
+access-list eng-atlantic_access_in remark Allow anyone to talk to authorized SMTP relays
+access-list eng-atlantic_access_in extended permit tcp any object-group smtp-relays eq smtp 
+access-list eng-atlantic_access_in remark Allow engineering mail servers to send SMTP anywhere
+access-list eng-atlantic_access_in extended permit tcp object-group eng-mail-servers any eq smtp 
+access-list eng-atlantic_access_in remark TEST for Wayne.
+access-list eng-atlantic_access_in extended deny ip host smpdev03 172.22.22.0 255.255.255.224 
+access-list eng-atlantic_access_in extended permit tcp host tmon1 object-group corp_mail_servers eq smtp 
+access-list eng-atlantic_access_in extended permit tcp host tmon2 object-group corp_mail_servers eq smtp 
+access-list eng-atlantic_access_in remark Allow NetGuardians to relay mail to new corp mail server 7 Jan 2010
+access-list eng-atlantic_access_in extended permit tcp object-group NetGuardians object-group corp_mail_servers eq smtp 
+access-list eng-atlantic_access_in remark Allow Telco ACD server to send mail via corp
+access-list eng-atlantic_access_in extended permit tcp host 10.192.8.2 object-group corp_mail_servers eq smtp 
+access-list eng-atlantic_access_in remark Allow Telco Redhat Sever to send mail to corporate.
+access-list eng-atlantic_access_in extended permit tcp host 10.192.8.194 object-group corp_mail_servers eq smtp 
+access-list eng-atlantic_access_in remark Allow STP network to hit Corporate Exchange server
+access-list eng-atlantic_access_in extended permit tcp 10.232.0.0 255.255.255.0 object-group corp_mail_servers eq smtp 
+access-list eng-atlantic_access_in remark Allow STP network to hit Corporate Exchange server
+access-list eng-atlantic_access_in extended permit tcp 10.232.4.0 255.255.255.0 object-group corp_mail_servers eq smtp 
+access-list eng-atlantic_access_in remark Allow Ciscoworks network to hit Corporate Exchange server
+access-list eng-atlantic_access_in extended permit tcp host 10.192.9.20 object-group corp_mail_servers eq smtp 
+access-list eng-atlantic_access_in remark Allow netops01 to hit Corporate Exchange server
+access-list eng-atlantic_access_in extended permit tcp host 10.192.8.195 object-group corp_mail_servers eq smtp 
+access-list eng-atlantic_access_in extended permit tcp host swen4 host 192.168.237.43 eq smtp 
+access-list eng-atlantic_access_in remark Allow OVIS to run e-mail tests - rule should be better defined.
+access-list eng-atlantic_access_in extended permit tcp host nm2 any eq smtp 
+access-list eng-atlantic_access_in remark Block all other SMTP
+access-list eng-atlantic_access_in extended deny tcp any any eq smtp 
+access-list eng-atlantic_access_in remark Default rule: allow anyone to go anywhere
+access-list eng-atlantic_access_in extended permit ip any any 
+access-list guest-nortel remark Permit Nortel to access Preside servers
+access-list guest-nortel extended permit ip any host 192.168.129.134 
+access-list guest-nortel remark Permit Nortel to access Preside servers
+access-list guest-nortel extended permit ip any host 192.168.129.236 
+access-list guest-nortel remark Permit Nortel to access Preside servers
+access-list guest-nortel extended permit ip any host 192.168.129.237 
+access-list guest-seldon remark Permit Seldon Systems to access the FPSSM management server
+access-list guest-seldon extended permit ip any host psmon1 
+access-list guest-seldon extended permit ip any host psmon2 
+access-list guest-seldon remark Allow vendor to access to new continuity servers
+access-list guest-seldon extended permit ip any host 10.202.128.108 
+access-list guest-seldon remark Allow vendor to access new continuity servers
+access-list guest-seldon extended permit ip any host 10.202.128.109 
+access-list guest-sigma-split-tunnel standard permit netmgmt-servers 255.255.255.0 
+access-list guest-sigma-split-tunnel standard permit smp-kdm-servers 255.255.255.0 
+access-list guest-sigma-split-tunnel remark Telco management LAN
+access-list guest-sigma-split-tunnel standard permit 192.168.129.0 255.255.255.0 
+access-list guest-sigma-split-tunnel remark Allow Sigmsa to access OSSgate on DRMOHEEMS
+access-list guest-sigma-split-tunnel standard permit host 10.207.4.135 
+access-list guest-metrobility remark Deny access to loopback and interface addresses on MPLS devices
+access-list guest-metrobility extended deny ip any 172.24.0.0 255.255.252.0 
+access-list guest-metrobility remark Allow Metrobility to access shelves via web and telnet
+access-list guest-metrobility extended permit tcp any 172.24.0.0 255.255.0.0 object-group metrobility-tcp 
+access-list guest-mpathix remark Allow Mpathix to access voicemail network
+access-list guest-mpathix extended permit ip any 10.202.252.0 255.255.255.0 
+access-list guest-mpathix remark Allow Mpathix to access Barrie voicemail network
+access-list guest-mpathix extended permit ip any 10.202.253.0 255.255.255.0 
+access-list guest-mpathix remark Allow access to lab instance
+access-list guest-mpathix extended permit ip any 10.232.24.192 255.255.255.224 
+access-list inetdmz-in remark TEMP: Allow PRIZM01 to go anywhere
+access-list inetdmz-in extended permit ip host prizm01 any 
+access-list inetdmz-in remark Allow DMZ hosts BigBrother access
+access-list inetdmz-in extended permit tcp 24.222.33.96 255.255.255.240 object-group bb-servers eq 1984 
+access-list inetdmz-in extended permit udp 24.222.33.96 255.255.255.240 object-group bb-servers object-group traceroute-udp 
+access-list inetdmz-in extended permit icmp 24.222.33.96 255.255.255.240 object-group bb-servers object-group traceroute-icmp 
+access-list inetdmz-in remark Allow hosts on the inetdmz to query the eng name servers
+access-list inetdmz-in extended permit udp 24.222.33.96 255.255.255.240 object-group eng-nameservers eq domain 
+access-list inetdmz-in remark Allow hosts on the inetdmz to query the eng ldap servers
+access-list inetdmz-in extended permit tcp 24.222.33.96 255.255.255.240 object-group eng-ldapservers eq ldap 
+access-list inetdmz-in remark Allow CG server mysql access to Voyeur
+access-list inetdmz-in extended permit tcp host cg-internet host voyeur eq 3306 
+access-list inetdmz-in extended permit ip host cg-internet 10.118.0.0 255.255.0.0 
+access-list inetdmz-in remark Allow CG to proxy web requests through to TOOLS (RT access)
+access-list inetdmz-in extended permit tcp host cg-internet host tools eq www 
+access-list inetdmz-in remark Allow Ellacoya SLE servers to connect to Ellacoya Oracle server via SQLnet
+access-list inetdmz-in extended permit tcp object-group ellacoya-sle-servers host nm4-new eq sqlnet 
+access-list inetdmz-in remark Allow Ellacoya SLE servers to connect to switches/SLE users
+access-list inetdmz-in extended permit ip object-group ellacoya-sle-servers object-group ellacoya-switches 
+access-list inetdmz-in remark Allow Ellacoya SLE servers DHCP lease query access to Incognito Test Server
+access-list inetdmz-in extended permit udp object-group ellacoya-sle-servers host smpdev02 eq bootps 
+access-list inetdmz-in remark Allow Sonexis conference bridge to send SMTP to corporate mail server
+access-list inetdmz-in extended permit tcp host conf-server corp-servers 255.255.255.0 object-group sonexis-tcp-out 
+access-list inetdmz-in remark Allow PRIZM01 to access Canopy APs on the 10.5.0.0/16 network
+access-list inetdmz-in extended permit ip host prizm01 10.5.0.0 255.255.0.0 
+access-list inetdmz-in extended permit ip any 10.5.5.0 255.255.255.0 
+access-list inetdmz-in remark Deny any other access to private(internal) networks
+access-list inetdmz-in extended deny ip any object-group private-netblocks 
+access-list inetdmz-in remark Allow any other access
+access-list inetdmz-in extended permit ip any any 
+access-list inetdmz-in extended permit icmp interface inetdmz any 
+access-list inetdmz-in remark Allow TVG-VLS connect through the VPN
+access-list inetdmz-in extended permit udp host 24.222.33.110 144.198.0.0 255.255.0.0 eq isakmp inactive 
+access-list inetdmz-in extended permit udp host 24.222.33.110 144.198.0.0 255.255.0.0 eq 4500 inactive 
+access-list inetdmz-in extended permit udp host 24.222.33.110 144.198.0.0 255.255.0.0 eq 8057 inactive 
+access-list inetdmz-in extended permit tcp host 24.222.33.110 144.198.0.0 255.255.0.0 eq 5000 inactive 
+access-list inetdmz-in extended permit esp host 24.222.33.110 144.198.0.0 255.255.0.0 inactive 
+access-list inetdmz-in remark Allow ACD server to connect to router on PrivateLAN - router connected to DMS via X.25
+access-list inetdmz-in extended permit tcp host ACD_Server host 192.168.129.205 eq 5991 
+access-list inetdmz-in remark Allow ACD server to ping to router on PrivateLAN - router connected to DMS via X.25
+access-list inetdmz-in extended permit icmp host ACD_Server host 192.168.129.205 echo-reply 
+access-list guest-v1labs remark Allow V1 Labs to access Sigma Phase 2 test system
+access-list guest-v1labs extended permit ip any host smpdev02 
+access-list guest-v1labs remark Allow V1 Labs users to query Engineering DNS servers
+access-list guest-v1labs extended permit udp any object-group eng-nameservers eq domain 
+access-list guest-sonexis remark Allow access to DNS
+access-list guest-sonexis extended permit udp any object-group eng-nameservers eq domain 
+access-list guest-sonexis remark Allow access to conf.eng.eastlink.ca
+access-list guest-sonexis extended permit ip any host 172.22.22.8 
+access-list acd_access_in extended permit ip host ACD_Server any 
+access-list acd_access_in extended permit ip host 24.222.33.124 any 
+access-list corp_persona_nat remark Allow Corporate access to Solarwinds
+access-list corp_persona_nat extended permit ip 172.18.0.0 255.255.0.0 any 
+access-list inetdmz_nat0_outbound extended permit ip any any 
+access-list inetdmz_nat0_outbound extended permit ip any object-group persona-central-networks 
+access-list inetdmz_nat0_outbound extended permit ip any object-group vpn-address-pools 
+access-list inetdmz_nat0_outbound extended permit ip host nm5-new object-group bcc-servers 
+access-list persona-central extended permit ip object-group persona-central-networks 172.22.0.0 255.255.0.0 
+access-list persona-central extended permit ip object-group persona-central-networks 24.222.33.96 255.255.255.240 
+access-list persona-central remark Allow Persona to access the SharePoint server
+access-list persona-central extended permit tcp object-group persona-central-networks host 10.218.101.156 eq www 
+access-list persona-central remark Allow Coroprate to access Alcatel TMNOS application using Go-Global
+access-list persona-central extended permit tcp object-group persona-central-networks eq 491 10.218.0.0 255.255.0.0 gt 1023 
+access-list persona-central extended permit udp object-group persona-central-networks object-group corp-nameservers eq domain 
+access-list persona-in extended permit ip object-group persona-networks 172.22.0.0 255.255.0.0 
+access-list persona-in remark Persona access to Private LAN
+access-list persona-in extended permit ip object-group persona-networks 192.168.129.0 255.255.255.0 
+access-list persona-in extended permit ip object-group persona-networks 10.218.0.0 255.255.0.0 
+access-list persona-in extended permit ip object-group persona-networks object-group corp-networks 
+access-list persona-in extended permit ip object-group eastlink-nfld-networks object-group corp-networks 
+access-list persona-in extended permit ip object-group eastlink-nfld-networks object-group persona-networks 
+access-list persona-in extended permit ip object-group eastlink-nfld-networks netmgmt-users 255.255.255.0 
+access-list persona-in extended permit ip object-group eastlink-nfld-networks object-group privlan-networks 
+access-list persona-in extended permit ip object-group eastlink-nfld-networks object-group netmgmt-nat_real 
+access-list persona-in extended permit ip object-group persona-networks 24.222.33.96 255.255.255.240 
+access-list persona-in extended permit ip object-group cdli-networks object-group netmgmt-networks 
+access-list persona-in extended permit icmp any object-group netmgmt-networks object-group traceroute-icmp 
+access-list persona-in extended permit udp any object-group netmgmt-networks object-group traceroute-udp 
+access-list persona-in remark Allow 10.64.0.0/24 Persona Central to connect to Ellacoya SLE
+access-list persona-in extended permit ip 10.64.0.0 255.255.255.0 host nm5-new 
+access-list persona-in extended permit ip object-group persona-networks 10.64.0.0 255.255.255.0 
+access-list persona-in extended permit ip object-group persona-networks 192.168.237.0 255.255.255.0 
+access-list persona-nonat extended permit ip any object-group vpn-address-pools 
+access-list persona-nonat extended permit ip any 24.222.33.96 255.255.255.240 
+access-list persona-nonat extended permit ip any any 
+access-list persona-nonat extended permit ip any object-group privlan-networks 
+access-list csg_nat0_outbound extended permit ip any 24.222.33.96 255.255.255.240 
+access-list csg_nat0_outbound extended permit ip object-group cdli-networks 32.49.16.0 255.255.255.240 
+access-list csg_nat0_outbound extended permit ip object-group csg-networks 32.49.247.0 255.255.255.224 
+access-list csg_nat0_outbound extended permit ip object-group csg-networks 192.168.160.0 255.255.255.0 
+access-list cito_access_in extended permit ip any any 
+access-list cito_access_in remark Allow any GNS device to send RADIUS to auth1/auth2
+access-list cito_access_in extended permit udp any object-group radius-servers-cito object-group radius-udp inactive 
+access-list cito_access_in remark Allow any GNS device to send TACACS+ accounting data to auth1/auth2
+access-list cito_access_in extended permit tcp any object-group radius-servers-cito eq tacacs inactive 
+access-list cito_access_in remark Allow GNS hosts to access Solarwinds web page
+access-list cito_access_in extended permit tcp any object-group gns-web-allowed eq www inactive 
+access-list internet_cryptomap_60 remark Engineering to Amtelecom Corp
+access-list internet_cryptomap_60 extended permit ip 172.22.0.0 255.255.0.0 object-group amtelecom-networks 
+access-list internet_cryptomap_60 remark Barrie mPathix
+access-list internet_cryptomap_60 extended permit ip 10.202.253.0 255.255.255.0 object-group amtelecom-networks 
+access-list internet_cryptomap_60 remark Halifax DMS
+access-list internet_cryptomap_60 extended permit ip 10.202.254.0 255.255.255.0 object-group amtelecom-networks 
+access-list internet_cryptomap_60 remark Private LAN to Amtelecom
+access-list internet_cryptomap_60 extended permit ip 192.168.129.0 255.255.255.0 object-group amtelecom-networks 
+access-list internet_cryptomap_60 remark Private LAN to Amtelecom
+access-list internet_cryptomap_60 extended permit ip 10.202.128.0 255.255.252.0 object-group amtelecom-networks 
+access-list internet_cryptomap_60 remark Allow Amtelecom access to Barrie CS2K
+access-list internet_cryptomap_60 extended permit ip object-group cs2k-barrie-networks object-group amtelecom-networks 
+access-list internet_cryptomap_60 extended permit ip host 172.22.20.21 host 10.1.141.10 
+access-list internet_cryptomap_60 extended permit ip host 172.22.20.22 host 10.1.141.10 
+access-list guest-zhone extended permit ip any host 192.168.129.206 
+access-list guest-zhone extended permit ip any host 192.168.129.207 
+access-list guest-zhone remark Allow access to ZMS server
+access-list guest-zhone extended permit ip any host 10.202.10.11 
+access-list guest-zhone remark Allow access to ZMS server
+access-list guest-zhone extended permit ip any host 10.202.10.12 
+access-list guest-zhone remark Permit Zhone to access the MALCs.
+access-list guest-zhone extended permit ip any 10.216.0.0 255.255.0.0 
+access-list internet_nat_outbound extended permit ip object-group vpn-address-pools any 
+access-list capture-list extended permit ip host 172.22.2.161 any 
+access-list capture-list extended permit ip any host 172.22.2.161 
+access-list capture-list extended permit ip host 172.22.2.186 any 
+access-list capture-list extended permit ip any host 172.22.2.186 
+access-list deviceprov_nat0_outbound extended permit ip any any 
+access-list ps-xponders-acl extended permit tcp any object-group power-supply-xponder-nets 
+access-list barrie_cslan_access_in remark Allow Timmins BTX  to talk to MTAs on HLFX-PCC2
+access-list barrie_cslan_access_in extended permit ip 172.16.5.32 255.255.255.240 object-group hlfx-pcc2-mtas 
+access-list barrie_cslan_access_in remark Allow Barrie BTX  to talk to MTAs on HLFX-PCC2
+access-list barrie_cslan_access_in extended permit ip 172.16.5.16 255.255.255.240 object-group hlfx-pcc2-mtas 
+access-list barrie_cslan_access_in remark Allow Barrie CS2K  to talk to MTAs on HLFX-PCC2
+access-list barrie_cslan_access_in extended permit ip object-group cs2k-barrie-networks object-group hlfx-pcc2-mtas 
+access-list barrie_cslan_access_in extended permit ip object-group eng-central-networks any 
+access-list barrie_cslan_access_in extended permit udp object-group pcc_bcc_west_allow object-group bcc-servers 
+access-list barrie_cslan_access_in extended permit icmp object-group pcc_bcc_west_allow object-group bcc-servers 
+access-list barrie_cslan_access_in extended permit ip host 10.192.8.100 any 
+access-list eng-central_nat0_outbound remark Barrie BTX
+access-list eng-central_nat0_outbound extended permit ip any 172.16.5.16 255.255.255.240 
+access-list eng-central_nat0_outbound remark Timmins BTX
+access-list eng-central_nat0_outbound extended permit ip any 172.16.5.32 255.255.255.240 
+access-list eng-central_nat0_outbound extended permit ip any object-group cs2k-barrie-networks 
+access-list eng-central_nat0_outbound extended permit ip any any 
+access-list mns_nat0_outbound extended permit ip any any 
+access-list acd_nat0_outbound extended permit ip any any 
+!
+tcp-map mss-map
+  exceed-mss allow
+!
+pager lines 24
+logging enable
+logging standby
+logging buffer-size 65536
+logging console critical
+logging monitor critical
+logging buffered errors
+logging trap errors
+logging history critical
+logging asdm errors
+logging host eng-atlantic nm2
+mtu packetcable-atlantic 1500
+mtu eng-atlantic 1500
+mtu internet 1500
+mtu corp 1500
+mtu csg 1500
+mtu devprov 1500
+mtu inetdmz 1500
+mtu acd 1500
+mtu eng-central 1500
+mtu persona-nfld 1500
+ip local pool guest-vpn-pool 172.22.5.1-172.22.5.254 mask 255.255.255.0
+ip local pool eng-vpn-pool 172.22.3.1-172.22.3.254 mask 255.255.255.0
+ip local pool eng-other-pool 172.22.4.1-172.22.4.254 mask 255.255.255.0
+failover
+failover lan unit primary
+failover lan interface failover GigabitEthernet3
+failover lan enable
+failover polltime unit 1 holdtime 3
+failover polltime interface 1 holdtime 5
+failover key *****
+failover mac address GigabitEthernet0 000e.0c9e.dc55 000e.0c9e.dc54
+failover mac address GigabitEthernet1 000e.0c9e.dd08 000e.0c9e.dd1a
+failover mac address GigabitEthernet2 000e.0c9e.dc64 000e.0c9e.dc51
+failover mac address Ethernet0 000d.8811.107c 000d.8811.0d64
+failover mac address Ethernet1 000d.8811.107d 000d.8811.0d65
+failover mac address Ethernet2 000d.8811.107e 000d.8811.0d66
+failover mac address Ethernet3 000d.8811.107f 000d.8811.0d67
+failover mac address Ethernet4 000e.0c85.37b8 000e.0c85.345c
+failover mac address Ethernet5 000e.0c85.3315 000e.0c85.3451
+failover link failover GigabitEthernet3
+failover interface ip failover 172.22.254.253 255.255.255.252 standby 172.22.254.254
+monitor-interface packetcable-atlantic
+monitor-interface eng-atlantic
+monitor-interface internet
+monitor-interface corp
+monitor-interface csg
+monitor-interface devprov
+no monitor-interface inetdmz
+no monitor-interface acd
+no monitor-interface eng-central
+monitor-interface persona-nfld
+icmp unreachable rate-limit 1 burst-size 1
+asdm image flash:/asdm-522.bin
+asdm history enable
+arp timeout 14400
+global (internet) 1 24.222.0.190
+global (csg) 1 32.49.247.18
+nat (packetcable-atlantic) 0 access-list packetcable-nonat
+nat (packetcable-atlantic) 1 0.0.0.0 0.0.0.0
+nat (eng-atlantic) 0 access-list eng-nonat
+nat (eng-atlantic) 1 0.0.0.0 0.0.0.0
+nat (internet) 0 access-list internet-nonat
+nat (internet) 1 access-list internet_nat_outbound
+nat (corp) 0 access-list corp-nonat
+nat (corp) 1 0.0.0.0 0.0.0.0
+nat (csg) 0 access-list csg_nat0_outbound
+nat (devprov) 0 access-list devprov-nonat
+nat (devprov) 1 0.0.0.0 0.0.0.0
+nat (inetdmz) 0 access-list inetdmz_nat0_outbound
+nat (acd) 0 access-list acd_nat0_outbound
+nat (eng-central) 0 access-list eng-central_nat0_outbound
+nat (persona-nfld) 0 access-list persona-nonat
+nat (persona-nfld) 1 0.0.0.0 0.0.0.0
+static (corp,csg) tcp jboss-server-csg 8080 jboss-server 8090 netmask 255.255.255.255 
+static (devprov,internet) 24.222.0.135 172.22.22.8 netmask 255.255.255.255 dns 
+static (eng-atlantic,internet) 24.222.0.162 cwambolt-laptop netmask 255.255.255.255 
+static (corp,internet) 10.218.0.0  access-list corp_persona_nat 
+static (corp,csg) printsrv00-csg printsrv00 netmask 255.255.255.255 
+static (corp,csg) printsrv01-csg printsrv01 netmask 255.255.255.255 
+static (corp,csg) printsrv02-csg printsrv02 netmask 255.255.255.255 
+static (corp,persona-nfld) 10.218.0.0  access-list corp_persona_nat dns norandomseq 
+static (corp,csg) sdby-dac-ts-csg sdby-dac-ts netmask 255.255.255.255 
+static (eng-atlantic,internet) rt-alt-internet rt-new netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.164 dstennett-desktop netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.166 sirvine-laptop netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.167 lbrinton-laptop netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.170 prichardson-laptop netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.173 rsachetti-laptop netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.174 pzhang-laptop netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.175 jcline-laptop netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.177 172.22.2.26 netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.179 sirvine-desktop netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.180 jkiss-laptop netmask 255.255.255.255 
+static (eng-atlantic,csg) dct-ts01-csg dct-ts01 netmask 255.255.255.255 
+static (eng-atlantic,internet) rx8-internet rx8 netmask 255.255.255.255 dns 
+static (eng-atlantic,internet) ovis-internet ovis netmask 255.255.255.255 dns 
+static (eng-atlantic,internet) nm1-internet nm1 netmask 255.255.255.255 dns 
+static (eng-atlantic,internet) nm2-internet nm2 netmask 255.255.255.255 dns 
+static (eng-atlantic,internet) voyeur-internet voyeur netmask 255.255.255.255 dns 
+static (eng-atlantic,csg) 32.49.247.19 seachange-ps netmask 255.255.255.255 
+static (eng-atlantic,internet) smpdev02-nat smpdev02 netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.73 smpdev03 netmask 255.255.255.255 
+static (eng-atlantic,csg) smpweb-csg smpweb netmask 255.255.255.255 
+static (eng-atlantic,internet) auth1-internet auth1 netmask 255.255.255.255 
+static (eng-atlantic,internet) auth2-internet auth2 netmask 255.255.255.255 
+static (eng-atlantic,internet) tools-internet tools netmask 255.255.255.255 dns 
+static (eng-atlantic,internet) tvn-rtr-internet tvn-rtr netmask 255.255.255.255 
+static (eng-atlantic,internet) sw-internet swen netmask 255.255.255.255 dns 
+static (eng-atlantic,internet) swen5-internet swen5 netmask 255.255.255.255 dns 
+static (eng-atlantic,internet) lms-internet lms netmask 255.255.255.255 
+static (eng-atlantic,internet) swdata-internet swdata netmask 255.255.255.255 
+static (eng-atlantic,internet) tmon1-nat tmon1 netmask 255.255.255.255 
+static (eng-atlantic,internet) tmon2-nat tmon2 netmask 255.255.255.255 
+static (eng-atlantic,internet) psmon1-nat psmon1 netmask 255.255.255.255 
+static (eng-atlantic,internet) psmon2-nat psmon2 netmask 255.255.255.255 
+static (eng-atlantic,internet) swen4-internet swen4 netmask 255.255.255.255 
+static (eng-atlantic,csg) 32.49.247.4 10.21.1.23 netmask 255.255.255.255 
+static (eng-atlantic,csg) 32.49.247.28 delta-dac netmask 255.255.255.255 
+static (eng-atlantic,csg) 32.49.247.5 delta-vod netmask 255.255.255.255 
+static (eng-atlantic,internet) 24.222.0.171 rsachetti-desktop netmask 255.255.255.255 
+access-group packetcable-in in interface packetcable-atlantic
+access-group eng-atlantic_access_in in interface eng-atlantic
+access-group internet-in in interface internet
+access-group corp-in in interface corp
+access-group csg-in in interface csg
+access-group devprov-in in interface devprov
+access-group inetdmz-in in interface inetdmz
+access-group acd_access_in in interface acd
+access-group barrie_cslan_access_in in interface eng-central
+access-group persona-in in interface persona-nfld
+route eng-atlantic netmgmt-users 255.255.255.0 172.22.254.3 1
+route eng-atlantic netmgmt-servers 255.255.255.0 172.22.254.3 1
+route eng-atlantic 10.232.0.0 255.248.0.0 172.22.254.3 1
+route internet 0.0.0.0 0.0.0.0 24.222.0.1 1
+route internet slb-network 255.255.255.0 24.222.0.254 1
+route internet 10.10.10.0 255.255.255.0 24.222.0.254 1
+route internet 10.10.12.0 255.255.255.0 24.222.0.254 1
+route internet ironport-listeners 255.255.255.128 24.222.0.254 1
+route internet 24.222.0.95 255.255.255.255 24.222.0.1 1
+route internet 24.222.0.97 255.255.255.255 24.222.0.1 1
+route corp 172.18.0.0 255.255.128.0 172.18.106.1 1
+route corp 24.222.14.0 255.255.255.240 172.18.106.1 1
+route corp 192.168.236.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.237.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.238.0 255.255.255.0 172.18.106.1 1
+route corp 10.64.0.0 255.255.0.0 172.18.106.1 1
+route corp 192.168.220.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.253.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.244.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.255.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.247.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.10.0 255.255.255.224 172.18.106.1 1
+route corp 172.27.0.0 255.255.0.0 172.18.106.1 1
+route corp 192.168.231.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.206.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.245.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.205.0 255.255.255.0 172.18.106.1 1
+route corp 10.220.0.0 255.255.0.0 172.18.106.1 1
+route corp 192.168.0.0 255.255.255.0 172.18.106.1 1
+route corp 216.104.96.0 255.255.255.0 172.18.106.1 1
+route corp 172.30.0.0 255.255.0.0 172.18.106.1 1
+route corp 192.168.241.0 255.255.255.0 172.18.106.1 1
+route corp 10.20.1.8 255.255.255.248 172.18.106.1 1
+route corp 10.137.0.0 255.255.0.0 172.18.106.1 1
+route corp 10.250.32.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.70.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.217.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.223.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.225.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.248.0 255.255.252.0 172.18.106.1 1
+route corp 10.254.34.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.249.0 255.255.255.0 172.18.106.1 1
+route corp 10.248.9.0 255.255.255.0 172.18.106.1 1
+route corp 10.128.0.0 255.224.0.0 172.18.106.1 1
+route corp 10.160.0.0 255.255.0.0 172.18.106.1 1
+route corp 10.168.0.0 255.248.0.0 172.18.106.1 1
+route corp 10.176.0.0 255.240.0.0 172.18.106.1 1
+route corp 10.130.0.0 255.255.0.0 172.18.106.1 1
+route corp 10.110.0.0 255.254.0.0 172.18.106.1 1
+route corp 172.20.0.0 255.255.0.0 172.18.106.1 1
+route corp 172.20.22.0 255.255.255.252 172.18.106.1 1
+route corp 172.20.24.0 255.255.255.248 172.18.106.1 1
+route corp grande-prairie-network 255.255.255.0 172.18.106.1 1
+route corp 10.112.0.0 255.255.0.0 172.18.106.1 1
+route corp 10.159.192.0 255.255.192.0 172.18.106.1 1
+route corp 10.158.192.0 255.255.192.0 172.18.106.1 1
+route corp 10.141.16.0 255.255.240.0 172.18.106.1 1
+route corp 10.141.32.0 255.255.252.0 172.18.106.1 1
+route corp 192.168.90.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.204.192 255.255.255.192 172.18.106.1 1
+route corp 172.21.2.0 255.255.255.0 172.18.106.1 1
+route corp 10.114.0.0 255.255.0.0 172.18.106.1 1
+route corp 10.254.32.0 255.255.255.0 172.18.106.1 1
+route corp 172.21.3.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.160.0 255.255.255.128 172.18.106.1 1
+route corp 192.168.160.160 255.255.255.224 172.18.106.1 1
+route corp 192.168.160.192 255.255.255.192 172.18.106.1 1
+route corp 192.168.169.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.190.0 255.255.255.0 172.18.106.1 1
+route corp 192.168.170.0 255.255.255.0 172.18.106.1 1
+route corp 24.207.0.160 255.255.255.240 172.18.106.1 1
+route corp 10.53.0.0 255.255.0.0 172.18.106.1 1
+route csg 205.144.152.0 255.255.255.0 32.49.247.17 1
+route csg 205.144.150.0 255.255.255.0 32.49.247.17 1
+route csg 205.144.149.0 255.255.255.0 32.49.247.17 1
+route csg 206.221.48.0 255.255.240.0 32.49.247.17 1
+route csg 205.144.151.0 255.255.255.0 32.49.247.17 1
+route csg 205.144.155.0 255.255.255.0 32.49.247.17 1
+route csg 205.144.153.0 255.255.255.0 32.49.247.17 1
+route eng-central 24.139.25.192 255.255.255.224 172.16.101.73 1
+route eng-central 172.16.0.0 255.255.0.0 172.16.101.73 1
+route eng-central 10.152.0.0 255.248.0.0 172.16.101.73 1
+route eng-central 10.77.0.0 255.255.240.0 172.16.101.73 1
+route eng-central 10.77.16.0 255.255.240.0 172.16.101.73 1
+route eng-central 10.192.16.0 255.255.255.192 172.16.101.73 1
+route eng-central 10.77.32.0 255.255.240.0 172.16.101.73 1
+route eng-central 10.77.48.0 255.255.240.0 172.16.101.73 1
+route eng-central 10.195.0.0 255.255.240.0 172.16.101.73 1
+route eng-central 10.195.16.0 255.255.240.0 172.16.101.73 1
+route eng-central 10.195.32.0 255.255.240.0 172.16.101.73 1
+route eng-central 10.195.48.0 255.255.240.0 172.16.101.73 1
+route persona-nfld 172.28.0.0 255.255.0.0 10.199.199.12 1
+route persona-nfld 192.168.254.0 255.255.255.0 10.199.199.12 1
+route persona-nfld 192.168.233.0 255.255.255.0 10.199.199.12 1
+route persona-nfld 10.118.0.0 255.255.0.0 10.199.199.12 1
+route persona-nfld 10.20.0.0 255.255.0.0 10.199.199.12 1
+route persona-nfld 10.248.0.0 255.255.0.0 10.199.199.12 1
+route persona-nfld 192.168.227.0 255.255.255.0 10.199.199.12 1
+route persona-nfld 192.168.250.0 255.255.255.0 10.199.199.12 1
+route persona-nfld 10.108.10.0 255.255.255.0 10.199.199.12 1
+route persona-nfld 172.16.101.80 255.255.255.248 172.16.101.73 1
+route persona-nfld 66.103.44.68 255.255.255.252 10.199.199.12 1
+!
+router ospf 1
+ network 172.22.254.0 255.255.255.240 area 0
+ network 172.22.254.24 255.255.255.248 area 0
+ router-id 172.22.254.1
+ log-adj-changes detail
+ redistribute connected metric-type 1 subnets
+ redistribute static metric-type 1 subnets
+ default-information originate always metric-type 1
+!
+timeout xlate 12:00:00
+timeout conn 8:00:00 half-closed 0:10:00 udp 0:02:00 icmp 0:00:02
+timeout sunrpc 0:10:00 h323 0:05:00 h225 1:00:00 mgcp 0:05:00 mgcp-pat 0:05:00
+timeout sip 0:30:00 sip_media 0:02:00 sip-invite 0:03:00 sip-disconnect 0:02:00
+timeout uauth 0:05:00 absolute
+aaa-server TACACS+ protocol tacacs+
+aaa-server RADIUS protocol radius
+aaa-server RADIUS (eng-atlantic) host nm2
+ timeout 5
+ key Ea$tRadius
+ authentication-port 1812
+ accounting-port 1813
+aaa-server RSA protocol radius
+aaa-server RSA (eng-atlantic) host auth1
+ key ea$tl1nk
+aaa-server RSA (eng-atlantic) host auth2
+ key ea$tl1nk
+group-policy guest-seachange internal
+group-policy guest-seachange attributes
+ vpn-filter value guest-seachange
+ group-lock value guest-seachange
+group-policy guest-comverse internal
+group-policy guest-comverse attributes
+ vpn-filter value guest-comverse
+group-policy guest-zhone internal
+group-policy guest-zhone attributes
+ vpn-session-timeout none
+ vpn-filter value guest-zhone
+ group-lock value guest-zhone
+group-policy guest-ellacoya internal
+group-policy guest-ellacoya attributes
+ vpn-filter value guest-ellacoya
+ group-lock value guest-ellacoya
+group-policy guest-sigma internal
+group-policy guest-sigma attributes
+ vpn-simultaneous-logins 100
+ vpn-filter value guest-sigma
+ group-lock value guest-sigma
+ split-tunnel-policy tunnelspecified
+ split-tunnel-network-list value guest-sigma-split-tunnel
+group-policy DfltGrpPolicy attributes
+ banner none
+ wins-server none
+ dns-server value 172.22.1.10 172.22.1.11
+ dhcp-network-scope none
+ vpn-access-hours none
+ vpn-simultaneous-logins 3
+ vpn-idle-timeout 30
+ vpn-session-timeout 1440
+ vpn-filter none
+ vpn-tunnel-protocol IPSec 
+ password-storage disable
+ ip-comp disable
+ re-xauth disable
+ group-lock none
+ pfs disable
+ ipsec-udp disable
+ ipsec-udp-port 10000
+ split-tunnel-policy tunnelall
+ split-tunnel-network-list none
+ default-domain value eng.eastlink.ca
+ split-dns none
+ intercept-dhcp 255.255.255.255 disable
+ secure-unit-authentication disable
+ user-authentication disable
+ user-authentication-idle-timeout 30
+ ip-phone-bypass disable
+ leap-bypass disable
+ nem disable
+ backup-servers keep-client-config
+ msie-proxy server none
+ msie-proxy method no-modify
+ msie-proxy except-list none
+ msie-proxy local-bypass disable
+ nac disable
+ nac-sq-period 300
+ nac-reval-period 36000
+ nac-default-acl none
+ address-pools none
+ client-firewall none
+ client-access-rule none
+group-policy guest-arris internal
+group-policy guest-arris attributes
+ vpn-filter value guest-arris
+ group-lock value guest-arris
+group-policy guest-sonexis internal
+group-policy guest-sonexis attributes
+ vpn-filter value guest-sonexis
+ group-lock value guest-sonexis
+group-policy guest-v1labs internal
+group-policy guest-v1labs attributes
+ vpn-filter value guest-v1labs
+ group-lock value guest-v1labs
+group-policy guest-nortel internal
+group-policy guest-nortel attributes
+ vpn-filter value guest-nortel
+ group-lock value guest-nortel
+group-policy guest-cisco internal
+group-policy guest-cisco attributes
+ vpn-filter value guest-cisco
+ group-lock value guest-cisco
+group-policy guest-seldon internal
+group-policy guest-seldon attributes
+ vpn-filter value guest-seldon
+ group-lock value guest-seldon
+group-policy guest-metrobility internal
+group-policy guest-metrobility attributes
+ vpn-filter value guest-metrobility
+ group-lock value guest-metrobility
+group-policy guest-mpathix internal
+group-policy guest-mpathix attributes
+ vpn-filter value guest-mpathix
+ group-lock value guest-mpathix
+group-policy persona-western internal
+group-policy persona-western attributes
+ vpn-idle-timeout none
+ vpn-session-timeout none
+group-policy persona-central internal
+group-policy persona-central attributes
+ vpn-idle-timeout none
+ vpn-session-timeout none
+group-policy eng-inet internal
+group-policy eng-noc internal
+group-policy eng-noc attributes
+ group-lock value eng-noc
+group-policy eng-data internal
+group-policy eng-data attributes
+ group-lock value eng-data
+group-policy eng-telco internal
+group-policy eng-telco attributes
+ wins-server value 172.18.101.14 172.18.101.24
+ group-lock value eng-telco
+group-policy eng-video internal
+group-policy eng-video attributes
+ group-lock value eng-video
+username ttobin password VBy05424RseWg.9m encrypted privilege 15
+username ttobin attributes
+ vpn-group-policy eng-inet
+ group-lock value eng-inet
+username brinton password esw/ks41ISZdn3GH encrypted privilege 15
+username brinton attributes
+ vpn-group-policy eng-inet
+username mleblanc password EK7NsbTGSobea/Qo encrypted privilege 15
+username rsachetti password E9T97tOXoNoihstO encrypted privilege 15
+username rsachetti attributes
+ vpn-group-policy eng-inet
+username nortel password Jah8Yhb7qX8h1RCR encrypted privilege 0
+username nortel attributes
+ vpn-group-policy guest-nortel
+ group-lock value guest-nortel
+username zhone password fxZvGbY2e7oTj1.v encrypted privilege 0
+username zhone attributes
+ vpn-group-policy guest-zhone
+ group-lock value guest-zhone
+username arris password UREFu7uG/tcJKOoN encrypted privilege 0
+username arris attributes
+ vpn-group-policy guest-arris
+ group-lock value guest-arris
+username backup password qiw.WWLPd/7cQjJe encrypted privilege 15
+username backup attributes
+ vpn-group-policy eng-inet
+username cwambolt password z2OvAbgLf5LVWOPM encrypted privilege 15
+username cwambolt attributes
+ vpn-group-policy eng-inet
+username admin password jTFOY49cUunOHSUJ encrypted privilege 15
+username admin attributes
+ vpn-group-policy eng-inet
+username seldon password fRKZLkXWXK4zfVOa encrypted privilege 0
+username seldon attributes
+ vpn-group-policy guest-seldon
+ group-lock value guest-seldon
+username seachange password 9VcHfzJhAWZN7T8y encrypted privilege 0
+username seachange attributes
+ vpn-group-policy guest-seachange
+ group-lock value guest-seachange
+username v1labs password bTitmapuWVimGV.S encrypted privilege 0
+username v1labs attributes
+ vpn-group-policy guest-v1labs
+ group-lock value guest-v1labs
+username jrubinger password btqE82s9YNIAlwN9 encrypted privilege 15
+username jrubinger attributes
+ vpn-group-policy eng-inet
+username metrobility password PfKpB92X5eCsU7rd encrypted privilege 0
+username metrobility attributes
+ vpn-group-policy guest-metrobility
+ group-lock value guest-metrobility
+username jsmith password g8C4YCDY6AQYnPHA encrypted privilege 15
+username jsmith attributes
+ vpn-group-policy eng-inet
+username ellacoya password bTr1Q3fanJ0k7rJV encrypted privilege 0
+username ellacoya attributes
+ vpn-group-policy guest-ellacoya
+ group-lock value guest-ellacoya
+username sigmacs password zfmtK9KDYAWFDo8o encrypted privilege 0
+username sigmacs attributes
+ vpn-group-policy guest-sigma
+ group-lock value guest-sigma
+username cisco password Mojn3h7fZlmLwo8f encrypted privilege 0
+username cisco attributes
+ vpn-group-policy guest-cisco
+ group-lock value guest-cisco
+username jpmac password M6.Wcrk.e/Kxmyle encrypted privilege 15
+username comverse password VSSyrX6KlLy.fxbN encrypted privilege 0
+username comverse attributes
+ vpn-group-policy guest-comverse
+ group-lock value guest-comverse
+username sonexis password NHMqNbw33nSpwpUD encrypted privilege 0
+username sonexis attributes
+ vpn-group-policy guest-sonexis
+ group-lock value guest-sonexis
+username mpathix password fR26kfPP820EVokP encrypted privilege 0
+username mpathix attributes
+ vpn-group-policy guest-mpathix
+ group-lock value guest-mpathix
+aaa authentication http console LOCAL 
+aaa authentication enable console LOCAL 
+aaa authentication ssh console LOCAL 
+aaa authentication telnet console LOCAL 
+aaa authentication serial console LOCAL 
+aaa authorization command LOCAL 
+aaa accounting ssh console RADIUS
+aaa accounting telnet console RADIUS
+aaa accounting enable console RADIUS
+aaa accounting serial console RADIUS
+aaa authentication secure-http-client
+http server enable
+http 172.22.6.0 255.255.255.0 eng-atlantic
+http netmgmt-servers 255.255.255.0 eng-atlantic
+http netmgmt-users 255.255.255.0 eng-atlantic
+http 172.22.3.0 255.255.255.0 eng-atlantic
+snmp-server host eng-atlantic nm1 community localnet version 2c
+snmp-server host eng-atlantic rx8 poll community localnet version 2c
+snmp-server location Young Tower
+snmp-server contact EastLink INOC
+snmp-server community localnet
+snmp-server enable traps snmp authentication linkup linkdown coldstart
+snmp-server enable traps syslog
+sysopt connection tcpmss 0
+sysopt nodnsalias outbound
+sysopt noproxyarp eng-atlantic
+crypto ipsec transform-set ESP-3DES-MD5 esp-3des esp-md5-hmac 
+crypto ipsec transform-set ESP-DES-MD5 esp-des esp-md5-hmac 
+crypto ipsec transform-set ESP-AES-256-MD5 esp-aes-256 esp-md5-hmac 
+crypto ipsec transform-set ESP-AES-256-SHA esp-aes-256 esp-sha-hmac 
+crypto ipsec transform-set ESP-AES-128-SHA esp-aes esp-sha-hmac 
+crypto ipsec transform-set ESP-AES-128-MD5 esp-aes esp-md5-hmac 
+crypto ipsec transform-set ESP-DES-SHA esp-des esp-sha-hmac 
+crypto ipsec transform-set ESP-3DES-SHA esp-3des esp-sha-hmac 
+crypto dynamic-map corp_dyn_map 10 set transform-set ESP-3DES-SHA ESP-3DES-MD5
+crypto dynamic-map internet_dyn_map 10 set transform-set ESP-3DES-SHA ESP-3DES-MD5
+crypto map corp_map 10 ipsec-isakmp dynamic corp_dyn_map
+crypto map corp_map interface corp
+crypto map internet_map 60 match address internet_cryptomap_60
+crypto map internet_map 60 set peer Amtel_NAT 
+crypto map internet_map 60 set transform-set ESP-3DES-SHA
+crypto map internet_map 65535 ipsec-isakmp dynamic internet_dyn_map
+crypto map internet_map interface internet
+crypto isakmp identity address 
+crypto isakmp enable internet
+crypto isakmp enable corp
+crypto isakmp policy 10
+ authentication pre-share
+ encryption 3des
+ hash sha
+ group 2
+ lifetime 86400
+crypto isakmp policy 20
+ authentication pre-share
+ encryption 3des
+ hash md5
+ group 2
+ lifetime 86400
+crypto isakmp policy 30
+ authentication pre-share
+ encryption des
+ hash md5
+ group 1
+ lifetime 3600
+crypto isakmp policy 65535
+ authentication pre-share
+ encryption 3des
+ hash sha
+ group 2
+ lifetime 86400
+crypto isakmp nat-traversal  20
+crypto isakmp ipsec-over-tcp port 10000 
+tunnel-group DefaultRAGroup general-attributes
+ authentication-server-group RADIUS
+tunnel-group DefaultRAGroup ipsec-attributes
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-cisco type ipsec-ra
+tunnel-group guest-cisco general-attributes
+ address-pool guest-vpn-pool
+ accounting-server-group RADIUS
+ default-group-policy guest-cisco
+tunnel-group guest-cisco ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-sigma type ipsec-ra
+tunnel-group guest-sigma general-attributes
+ address-pool guest-vpn-pool
+ accounting-server-group RADIUS
+ default-group-policy guest-sigma
+tunnel-group guest-sigma ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group eng-noc type ipsec-ra
+tunnel-group eng-noc general-attributes
+ address-pool eng-vpn-pool
+ default-group-policy eng-noc
+tunnel-group eng-noc ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-ellacoya type ipsec-ra
+tunnel-group guest-ellacoya general-attributes
+ address-pool guest-vpn-pool
+ accounting-server-group RADIUS
+ default-group-policy guest-ellacoya
+tunnel-group guest-ellacoya ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-seachange type ipsec-ra
+tunnel-group guest-seachange general-attributes
+ address-pool guest-vpn-pool
+ accounting-server-group RADIUS
+ default-group-policy guest-seachange
+tunnel-group guest-seachange ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group eng-inet type ipsec-ra
+tunnel-group eng-inet general-attributes
+ address-pool eng-vpn-pool
+ authentication-server-group RSA LOCAL
+ authorization-server-group RSA
+ accounting-server-group RSA
+ default-group-policy eng-inet
+tunnel-group eng-inet ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group eng-data type ipsec-ra
+tunnel-group eng-data general-attributes
+ address-pool eng-vpn-pool
+ authentication-server-group RSA
+ authorization-server-group RSA
+ accounting-server-group RSA
+ default-group-policy eng-data
+tunnel-group eng-data ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group eng-telco type ipsec-ra
+tunnel-group eng-telco general-attributes
+ address-pool eng-vpn-pool
+ authentication-server-group RSA
+ authorization-server-group RSA
+ accounting-server-group RSA
+ default-group-policy eng-telco
+tunnel-group eng-telco ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group eng-video type ipsec-ra
+tunnel-group eng-video general-attributes
+ address-pool eng-vpn-pool
+ default-group-policy eng-video
+tunnel-group eng-video ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-comverse type ipsec-ra
+tunnel-group guest-comverse general-attributes
+ address-pool guest-vpn-pool
+ accounting-server-group RSA
+ default-group-policy guest-comverse
+tunnel-group guest-comverse ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-arris type ipsec-ra
+tunnel-group guest-arris general-attributes
+ address-pool guest-vpn-pool
+ default-group-policy guest-arris
+tunnel-group guest-arris ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-nortel type ipsec-ra
+tunnel-group guest-nortel general-attributes
+ address-pool guest-vpn-pool
+ default-group-policy guest-nortel
+tunnel-group guest-nortel ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-seldon type ipsec-ra
+tunnel-group guest-seldon general-attributes
+ address-pool guest-vpn-pool
+ default-group-policy guest-seldon
+tunnel-group guest-seldon ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-metrobility type ipsec-ra
+tunnel-group guest-metrobility general-attributes
+ address-pool guest-vpn-pool
+ default-group-policy guest-metrobility
+tunnel-group guest-metrobility ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-mpathix type ipsec-ra
+tunnel-group guest-mpathix general-attributes
+ address-pool guest-vpn-pool
+ default-group-policy guest-mpathix
+tunnel-group guest-mpathix ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-sonexis type ipsec-ra
+tunnel-group guest-sonexis general-attributes
+ address-pool guest-vpn-pool
+ default-group-policy guest-sonexis
+tunnel-group guest-sonexis ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-v1labs type ipsec-ra
+tunnel-group guest-v1labs general-attributes
+ address-pool guest-vpn-pool
+ default-group-policy guest-v1labs
+tunnel-group guest-v1labs ipsec-attributes
+ pre-shared-key *
+ isakmp keepalive threshold 10 retry 2
+tunnel-group guest-zhone type ipsec-ra
+tunnel-group guest-zhone general-attributes
+ address-pool guest-vpn-pool
+ default-group-policy guest-zhone
+tunnel-group guest-zhone ipsec-attributes
+ pre-shared-key *
+tunnel-group 24.235.32.146 type ipsec-l2l
+tunnel-group 24.235.32.146 ipsec-attributes
+ pre-shared-key *
+tunnel-group 24.207.0.205 type ipsec-l2l
+tunnel-group 24.207.0.205 ipsec-attributes
+ pre-shared-key *
+tunnel-group 67.58.192.254 type ipsec-l2l
+tunnel-group 67.58.192.254 ipsec-attributes
+ pre-shared-key *
+telnet netmgmt-servers 255.255.255.0 eng-atlantic
+telnet netmgmt-users 255.255.255.0 eng-atlantic
+telnet timeout 15
+ssh netmgmt-servers 255.255.255.0 eng-atlantic
+ssh netmgmt-users 255.255.255.0 eng-atlantic
+ssh 172.22.3.0 255.255.255.0 eng-atlantic
+ssh 172.22.6.0 255.255.255.0 eng-atlantic
+ssh timeout 15
+ssh version 2
+console timeout 15
+management-access eng-atlantic
+!
+class-map type inspect http match-all asdm_medium_security_methods
+ match not request method head
+ match not request method post
+ match not request method get
+class-map inspection_default
+ match default-inspection-traffic
+class-map type inspect http match-all asdm_high_security_methods
+ match not request method head
+ match not request method get
+class-map ps-xponders-map
+ match access-list ps-xponders-acl
+!
+!
+policy-map type inspect dns preset_dns_map
+ parameters
+  message-length maximum 512
+policy-map type inspect http High_Security_HTTP_Map
+ parameters
+  protocol-violation action drop-connection log
+ class asdm_high_security_methods
+  drop-connection
+ match request header non-ascii
+  drop-connection
+policy-map internet-map
+ class ps-xponders-map
+  set connection advanced-options mss-map
+policy-map type inspect http No_Security_HTTP_Map
+ description Turn off all HTTP inspections (use only for broken apps/servers)
+ parameters
+policy-map type inspect http Medium_Security_HTTP_Map
+ parameters
+  protocol-violation action drop-connection
+ class asdm_medium_security_methods
+  drop-connection
+policy-map global_policy
+ class inspection_default
+  inspect dns preset_dns_map 
+  inspect ftp 
+  inspect netbios 
+  inspect rsh 
+  inspect rtsp 
+  inspect skinny 
+  inspect sqlnet 
+  inspect sunrpc 
+  inspect tftp 
+  inspect sip 
+  inspect xdmcp 
+  inspect icmp 
+  inspect snmp 
+  inspect dcerpc 
+  inspect icmp error 
+policy-map type inspect http Low_Security_HTTP_Map
+ parameters
+  protocol-violation action drop-connection
+!
+service-policy global_policy global
+service-policy internet-map interface internet
+ntp server 24.222.0.33
+ntp server nm2 source eng-atlantic prefer
+tftp-server eng-atlantic nm2 /configs/eng-fw.cfg
+smtp-server 24.222.0.20
+prompt hostname context 
+Cryptochecksum:2f053355a459ff0f6a706b817c1ed93b
+: end
+asdm image flash:/asdm-522.bin
+asdm location 10.100.0.0 255.255.0.0 eng-atlantic
+asdm location 10.200.0.0 255.255.0.0 eng-atlantic
+asdm location 10.207.0.0 255.255.0.0 eng-atlantic
+asdm location 172.24.0.0 255.255.0.0 eng-atlantic
+asdm location 172.22.0.0 255.255.0.0 eng-atlantic
+asdm location 172.18.0.0 255.255.0.0 corp
+asdm location 172.20.0.0 255.255.0.0 corp
+asdm location 32.49.247.18 255.255.255.255 csg
+asdm location vod-ss-net 255.255.255.0 eng-atlantic
+asdm location vod-pg-net 255.255.255.0 eng-atlantic
+asdm location nm1-internet 255.255.255.255 internet
+asdm location voyeur-internet 255.255.255.255 internet
+asdm location nm2-internet 255.255.255.255 internet
+asdm group netmgmt-nat_real eng-atlantic
+asdm group cslan-allowed corp
+asdm group corp-networks corp
+asdm group netmgmt-nat internet reference netmgmt-nat_real
+asdm group internet-trap-allowed internet
+asdm group internet-radius-allowed internet
+asdm group internet-ssh-allowed internet
+asdm group internet-nameservers internet
+asdm group internet-web-allowed internet
+asdm group internet-bb-allowed internet
+asdm group internet-ident-allowed internet
+asdm group ellacoya-switches internet
+asdm group inoc-remote-users internet
+asdm group techmgr-home-users internet
+asdm group netmgmt-networks eng-atlantic
+asdm group csg-allowed-dest csg
+asdm group csg-networks csg
+asdm group radius-servers-real eng-atlantic
+asdm group radius-servers-nat internet
+asdm group cmt-ossgate-allowed corp
+asdm history enable
+
